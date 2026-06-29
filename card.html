@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="zh-CN" data-theme="dark">
 <head>
   <meta charset="UTF-8">
@@ -8,10 +8,6 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Noto+Serif+SC:wght@400;700&display=swap" rel="stylesheet">
-  <!-- Firebase SDK -->
-  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-auth-compat.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore-compat.js"></script>
   <link rel="stylesheet" href="css/style.css">
   <script>
     tailwind.config = {
@@ -36,24 +32,6 @@
 </head>
 <body class="min-h-screen bg-gradient-to-b from-cuckoo-dark via-[#162032] to-cuckoo-dark text-white font-serif">
 
-  <!-- 登录遮罩（未登录时显示） -->
-  <div id="loginGate" class="fixed inset-0 z-[9999] bg-gradient-to-b from-cuckoo-dark via-[#162032] to-cuckoo-dark flex items-center justify-center">
-    <div class="text-center px-6 max-w-sm w-full">
-      <div class="mb-6">
-        <img src="assets/images/库库象_标志.webp" alt="库库象" class="w-20 h-20 object-contain mx-auto mb-4">
-        <h1 class="font-mashan text-3xl bg-gradient-to-r from-cuckoo-orange to-yellow-300 bg-clip-text text-transparent mb-2">库库象</h1>
-        <p class="text-white/40 text-sm font-sans">登录后同步学习进度</p>
-      </div>
-      <button id="googleLoginBtn" class="btn w-full bg-white/90 text-gray-800 hover:bg-white border-none font-sans text-base h-12 mb-3 flex items-center justify-center gap-2">
-        <svg class="w-5 h-5" viewBox="0 0 24 24"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 01-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg>
-        Google 账号登录
-      </button>
-      <p id="loginError" class="text-red-400 text-xs font-sans hidden mt-2"></p>
-      <p class="text-white/15 text-xs font-sans mt-6">登录即表示同意服务条款和隐私政策</p>
-      <p class="text-white/40 text-xs font-sans mt-1">by William Zhang</p>
-    </div>
-  </div>
-
   <!-- 顶部栏 -->
   <header class="sticky top-0 z-50 backdrop-blur-xl bg-cuckoo-dark/80 border-b border-white/5">
     <div class="max-w-lg mx-auto px-5 py-3 flex items-center justify-between">
@@ -63,8 +41,6 @@
       </a>
       <span class="text-white/30 text-xs font-sans" id="cardCounter">1 / 10</span>
       <div class="flex items-center gap-2">
-        <span id="userDisplay" class="text-white/40 text-xs font-sans hidden"></span>
-        <button id="logoutBtn" class="text-white/30 hover:text-white/60 text-xs font-sans hidden transition-colors">退出</button>
         <div class="flex items-center gap-1">
           <img src="assets/images/库库象_标志.webp" alt="库库象" class="w-6 h-6 object-contain">
           <span class="font-mashan text-sm text-cuckoo-orange">库库象</span>
@@ -188,68 +164,7 @@
     </div>
   </main>
 
-  <script src="js/firebase.js"></script>
   <script src="js/data.js"></script>
   <script src="js/card.js"></script>
-
-  <!-- 认证门控 -->
-  <script>
-  (function() {
-    const loginGate = document.getElementById('loginGate');
-    const googleBtn = document.getElementById('googleLoginBtn');
-    const loginError = document.getElementById('loginError');
-    const userDisplay = document.getElementById('userDisplay');
-    const logoutBtn = document.getElementById('logoutBtn');
-
-    function showLogin() {
-      loginGate.classList.remove('hidden');
-    }
-    function hideLogin(user) {
-      loginGate.classList.add('hidden');
-      if (user) {
-        userDisplay.textContent = user.displayName || user.email || '已登录';
-        userDisplay.classList.remove('hidden');
-        logoutBtn.classList.remove('hidden');
-      }
-    }
-
-    // 等待 firebase.js 初始化
-    function waitForFirebase(cb) {
-      if (window.CuckooFirebase) {
-        cb();
-        return;
-      }
-      setTimeout(() => waitForFirebase(cb), 100);
-    }
-
-    waitForFirebase(function() {
-      window.CuckooFirebase.onAuthStateChanged(function(user) {
-        if (user) {
-          hideLogin(user);
-        } else {
-          showLogin();
-        }
-      });
-
-      googleBtn.addEventListener('click', async function() {
-        googleBtn.disabled = true;
-        googleBtn.textContent = '登录中...';
-        loginError.classList.add('hidden');
-        try {
-          await window.CuckooFirebase.signInWithGoogle();
-        } catch (e) {
-          loginError.textContent = '登录失败: ' + (e.message || '请重试');
-          loginError.classList.remove('hidden');
-          googleBtn.disabled = false;
-          googleBtn.textContent = 'Google 账号登录';
-        }
-      });
-
-      logoutBtn.addEventListener('click', async function() {
-        await window.CuckooFirebase.signOut();
-      });
-    });
-  })();
-  </script>
 </body>
 </html>

@@ -2,22 +2,11 @@
 (function() {
   'use strict';
 
-  // ---- 积分系统（Firebase 同步版）----
+  // ---- 积分系统（纯本地版）----
   const SCORE_MAP = { know: 10, unsure: 5, unknown: 0 };
-  async function addScore(points, word, rating) {
-    // 本地缓存
+  function addScore(points) {
     const cur = parseInt(localStorage.getItem('cuckoo_study_score') || '0');
     localStorage.setItem('cuckoo_study_score', cur + points);
-    
-    // 云端同步（如果已登录）
-    if (window.CuckooFirebase && window.CuckooFirebase.getCurrentUser()) {
-      const category = sessionStorage.getItem('cuckoo_category') || '';
-      try {
-        await window.CuckooFirebase.saveScore(word, category, rating, points);
-      } catch (e) {
-        console.warn('Firebase 同步失败，使用本地缓存', e);
-      }
-    }
   }
   async function checkStreak() {
     const today = new Date();
@@ -215,14 +204,6 @@
     const pts = SCORE_MAP[level] || 0;
     sessionScore += pts;
 
-    // 云端记录（Firebase）
-    const w = cards[currentIndex];
-    const word = w ? w.word : '';
-    if (word && window.CuckooFirebase && window.CuckooFirebase.getCurrentUser()) {
-      const cat = sessionStorage.getItem('cuckoo_category') || '';
-      window.CuckooFirebase.saveScore(word, cat, level, pts).catch(() => {});
-    }
-    
     // 隐藏自评，显示下一词
     els.ratingButtons.classList.add('hidden');
     els.nextButton.classList.remove('hidden');
@@ -263,17 +244,10 @@
     const totalScore = parseInt(localStorage.getItem('cuckoo_study_score') || '0');
     const streak = await checkStreak();
     
-    // 尝试从云端拉取统计数据
-    let cloudStats = null;
-    if (window.CuckooFirebase && window.CuckooFirebase.getCurrentUser()) {
-      try { cloudStats = await window.CuckooFirebase.getStats(); } catch(e) {}
-    }
-    
     const total = stats.know + stats.unsure + stats.unknown;
-    const cloudTotal = cloudStats ? (cloudStats.totalScore || totalScore) : totalScore;
     els.completeStats.innerHTML = 
       `本轮 ${total} 词：认识 ${stats.know} · 不确定 ${stats.unsure} · 不认识 ${stats.unknown}<br>` +
-      `<span class="text-cuckoo-orange">+${sessionScore} 学习积分</span> · 累计 <strong>${cloudTotal}</strong> 分<br>` +
+      `<span class="text-cuckoo-orange">+${sessionScore} 学习积分</span> · 累计 <strong>${totalScore}</strong> 分<br>` +
       `<span class="text-cuckoo-blue">连续打卡 ${streak} 天</span>`;
     
     gsap.from(els.completeScreen, { opacity: 0, y: 30, duration: 0.5, ease: 'power2.out' });
