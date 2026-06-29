@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>库库象 · 词源记忆卡片</title>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Noto+Serif+SC:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            'mashan': ['Ma Shan Zheng', 'cursive'],
+            'serif': ['Noto Serif SC', 'serif']
+          },
+          colors: {
+            cuckoo: {
+              blue: '#5B7FBF',
+              orange: '#F5A623',
+              dark: '#1a2332',
+              card: '#1e2d3d'
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="min-h-screen bg-gradient-to-b from-cuckoo-dark via-[#162032] to-cuckoo-dark text-white font-serif">
+
+  <!-- 顶部导航 -->
+  <header class="sticky top-0 z-50 backdrop-blur-xl bg-cuckoo-dark/80 border-b border-white/5">
+    <div class="max-w-lg mx-auto px-5 py-3 flex items-center justify-between">
+      <div class="flex items-center gap-2">
+        <img src="assets/images/库库象_标志.webp" alt="库库象" class="w-8 h-8 object-contain">
+        <h1 class="font-mashan text-xl bg-gradient-to-r from-cuckoo-orange to-yellow-300 bg-clip-text text-transparent">库库象</h1>
+        <span class="text-xs text-white/40 font-sans">词源记忆</span>
+      </div>
+      <p class="text-white/15 text-xs font-sans">© 库库象 CuckooCards · 张泽沛</p>
+    </div>
+  </header>
+
+  <main class="max-w-lg mx-auto px-5 pb-20">
+
+    <!-- 进度环 -->
+    <section class="mt-8 mb-6">
+      <div class="glass-card p-6 flex items-center gap-5">
+        <div class="radial-progress text-cuckoo-orange" style="--value:0; --size:4rem; --thickness:5px;" role="progressbar">
+          <span class="text-white text-sm font-bold font-sans">0/10</span>
+        </div>
+        <div class="flex-1">
+          <h3 class="font-mashan text-lg">今日进度</h3>
+          <p class="text-white/50 text-sm mt-1">已掌握 <strong class="text-cuckoo-orange">0</strong> 个词 · 共 413 词</p>
+          <p class="text-white/30 text-xs mt-0.5">小学词源知识库</p>
+        </div>
+        <a href="category.html" class="flex flex-col items-center justify-center bg-cuckoo-orange text-cuckoo-dark hover:bg-cuckoo-orange/90 rounded-lg font-mashan px-5 py-3 transition-colors">
+          <span class="text-xl leading-tight">开始</span>
+          <span class="text-xl leading-tight">学习</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- 积分栏 -->
+    <div class="mb-6 flex gap-3">
+      <div class="flex-1 glass-card p-4 flex items-center gap-3">
+        <span class="text-2xl">⭐</span>
+        <div>
+          <p class="text-white/40 text-xs font-sans">学习积分</p>
+          <p class="text-cuckoo-orange text-xl font-bold font-sans" id="studyScore">0</p>
+        </div>
+      </div>
+      <div class="flex-1 glass-card p-4 flex items-center gap-3">
+        <span class="text-2xl">🔥</span>
+        <div>
+          <p class="text-white/40 text-xs font-sans">连续打卡</p>
+          <p class="text-cuckoo-blue text-xl font-bold font-sans" id="streakDays">0 天</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- 每日一词 -->
+    <section class="mb-6">
+      <h2 class="font-mashan text-lg mb-3 flex items-center gap-2">
+        <span class="text-cuckoo-orange">✦</span> 每日一词
+      </h2>
+      <div class="glass-card p-0 overflow-hidden group cursor-pointer hover:shadow-lg hover:shadow-cuckoo-orange/5 transition-all duration-300"
+           id="dailyWordCard">
+        <div class="aspect-[1.56/1] bg-gradient-to-br from-cuckoo-blue/30 to-cuckoo-orange/20 flex items-center justify-center relative overflow-hidden" id="dailyWordImage">
+        </div>
+        <div class="p-5" id="dailyWordInfo">
+        </div>
+      </div>
+    </section>
+
+    <!-- 学习计划 -->
+    <section>
+      <a href="category.html" class="glass-card p-5 flex items-center gap-4 cursor-pointer hover:bg-white/5 transition-all duration-200 hover:scale-[1.01] block">
+        <span class="text-3xl">📋</span>
+        <div class="flex-1">
+          <p class="font-mashan text-lg text-cuckoo-orange">学习计划</p>
+          <p class="text-white/30 text-xs font-sans mt-0.5">选择学段，开始今日学习</p>
+        </div>
+        <span class="text-white/20 text-lg">→</span>
+      </a>
+    </section>
+
+  </main>
+
+  <script src="js/data.js"></script>
+  <script>
+    // 读取学习积分
+    (() => {
+      const score = parseInt(localStorage.getItem('cuckoo_study_score') || '0');
+      const streak = parseInt(localStorage.getItem('cuckoo_streak_days') || '0');
+      document.getElementById('studyScore').textContent = score;
+      document.getElementById('streakDays').textContent = streak + ' 天';
+    })();
+
+    // 每日一词：根据用户学段，以日期为种子随机取词
+    (() => {
+      const level = localStorage.getItem('cuckoo_last_level') || '小学';
+      const pool = sampleWords.filter(w => w.level === level);
+      if (pool.length === 0) return;
+
+      const today = new Date().toISOString().slice(0, 10);
+      let seed = 0;
+      for (let i = 0; i < today.length; i++) seed = ((seed << 5) - seed) + today.charCodeAt(i);
+      seed = Math.abs(seed);
+      const word = pool[seed % pool.length];
+
+      // 图片区域
+      const imgDiv = document.getElementById('dailyWordImage');
+      if (word.hasImage) {
+        imgDiv.innerHTML = `<img src="assets/images/${word.word}.webp" alt="${word.word}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">`;
+      } else {
+        imgDiv.innerHTML = `<div class="flex items-center justify-center w-full h-full bg-gradient-to-br from-cuckoo-blue/40 to-cuckoo-orange/30"><span class="text-6xl font-bold text-white/15">${word.word[0].toUpperCase()}</span></div>`;
+      }
+      imgDiv.innerHTML += `<div class="absolute inset-0 bg-gradient-to-t from-cuckoo-dark/80 via-transparent to-transparent"></div>
+        <div class="absolute bottom-4 left-5">
+          <span class="text-3xl font-bold text-white drop-shadow-lg">${word.word}</span>
+          <span class="block text-xs text-white/70 mt-1">/${word.phonetic}/</span>
+        </div>`;
+
+      // 文字区域
+      document.getElementById('dailyWordInfo').innerHTML = `
+        <p class="text-white/80 text-sm leading-relaxed">${word.tip}</p>
+        <div class="flex items-center gap-2 mt-3">
+          <span class="badge badge-sm bg-cuckoo-blue/20 text-cuckoo-blue border-cuckoo-blue/30 font-sans">${word.source}</span>
+        </div>`;
+
+      // 点击跳转
+      document.getElementById('dailyWordCard').setAttribute('onclick', `goToCard('${word.word}')`);
+    })();
+
+    function goToCard(word) {
+      sessionStorage.setItem('cuckoo_current_word', word);
+      window.location.href = 'card.html';
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>选择学段 · 库库象</title>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Noto+Serif+SC:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            'mashan': ['Ma Shan Zheng', 'cursive'],
+            'serif': ['Noto Serif SC', 'serif']
+          },
+          colors: {
+            cuckoo: {
+              blue: '#5B7FBF',
+              orange: '#F5A623',
+              dark: '#1a2332',
+              card: '#1e2d3d'
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="min-h-screen bg-gradient-to-b from-cuckoo-dark via-[#162032] to-cuckoo-dark text-white font-serif">
+
+  <!-- 顶部导航 -->
+  <header class="sticky top-0 z-50 backdrop-blur-xl bg-cuckoo-dark/80 border-b border-white/5">
+    <div class="max-w-lg mx-auto px-5 py-3 flex items-center justify-between">
+      <a href="index.html" class="text-white/60 hover:text-white transition-colors text-sm font-sans flex items-center gap-1">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        返回
+      </a>
+      <div class="flex items-center gap-1">
+        <img src="assets/images/库库象_标志.webp" alt="库库象" class="w-6 h-6 object-contain">
+        <span class="font-mashan text-sm text-cuckoo-orange">库库象</span>
+      </div>
+      <p class="text-white/15 text-xs font-sans">© 张泽沛</p>
+    </div>
+  </header>
+
+  <main class="max-w-lg mx-auto px-5 pb-16">
+    <!-- 选择学段 -->
+    <h2 class="font-mashan text-xl mt-6 mb-4 flex items-center gap-2">
+      <span class="text-cuckoo-orange">✦</span> 选择学段
+    </h2>
+
+    <div class="grid grid-cols-2 gap-3">
+      <div class="glass-card p-6 text-center cursor-pointer hover:bg-white/5 transition-all duration-200 hover:scale-[1.02]" onclick="goLearn('primary')">
+        <span class="text-5xl block mb-3">🏫</span>
+        <p class="font-mashan text-xl text-cuckoo-blue">小学</p>
+        <p class="text-white/25 text-xs font-sans mt-1">基础词汇 · <span id="progPrimary">—</span></p>
+      </div>
+      <div class="glass-card p-6 text-center cursor-pointer hover:bg-white/5 transition-all duration-200 hover:scale-[1.02]" onclick="goLearn('junior')">
+        <span class="text-5xl block mb-3">📚</span>
+        <p class="font-mashan text-xl text-cuckoo-blue">初中</p>
+        <p class="text-white/25 text-xs font-sans mt-1">进阶词汇 · <span id="progJunior">—</span></p>
+      </div>
+      <div class="glass-card p-6 text-center cursor-pointer hover:bg-white/5 transition-all duration-200 hover:scale-[1.02]" onclick="goLearn('senior')">
+        <span class="text-5xl block mb-3">📖</span>
+        <p class="font-mashan text-xl text-cuckoo-blue">高中</p>
+        <p class="text-white/25 text-xs font-sans mt-1">高阶词汇 · <span id="progSenior">—</span></p>
+      </div>
+      <div class="glass-card p-6 text-center cursor-pointer hover:bg-white/5 transition-all duration-200 hover:scale-[1.02] border border-cuckoo-orange/20" onclick="goLearn('challenge')">
+        <span class="text-5xl block mb-3">⚔️</span>
+        <p class="font-mashan text-xl text-cuckoo-orange">挑战</p>
+        <p class="text-white/25 text-xs font-sans mt-1">超纲词汇 · <span id="progChallenge">—</span></p>
+      </div>
+    </div>
+
+    <!-- 积分栏 -->
+    <div class="mt-6 mb-6 flex gap-3">
+      <div class="flex-1 glass-card p-4 flex items-center gap-3">
+        <span class="text-2xl">⭐</span>
+        <div>
+          <p class="text-white/40 text-xs font-sans">学习积分</p>
+          <p class="text-cuckoo-orange text-xl font-bold font-sans" id="studyScore">0</p>
+        </div>
+      </div>
+      <div class="flex-1 glass-card p-4 flex items-center gap-3">
+        <span class="text-2xl">🔥</span>
+        <div>
+          <p class="text-white/40 text-xs font-sans">连续打卡</p>
+          <p class="text-cuckoo-blue text-xl font-bold font-sans" id="streakDays">0 天</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- 打卡日历 -->
+    <div class="mb-6 glass-card p-4">
+      <div class="flex items-center justify-between mb-3">
+        <button class="text-white/40 hover:text-white transition-colors text-sm font-sans" onclick="calendarShift(-1)">&lt;</button>
+        <span class="font-mashan text-sm text-cuckoo-blue" id="calendarMonth">6月 2026</span>
+        <button class="text-white/40 hover:text-white transition-colors text-sm font-sans" onclick="calendarShift(1)">&gt;</button>
+      </div>
+      <div class="grid grid-cols-7 gap-1 text-center text-xs font-sans text-white/25 mb-1">
+        <span>日</span><span>一</span><span>二</span><span>三</span><span>四</span><span>五</span><span>六</span>
+      </div>
+      <div class="grid grid-cols-7 gap-1 text-center" id="calendarGrid"></div>
+    </div>
+
+    <!-- 商城入口 -->
+    <div class="mt-4">
+      <div class="glass-card p-5 flex items-center gap-4 cursor-pointer hover:bg-white/5 transition-all duration-200" onclick="goShop()">
+        <span class="text-4xl">🛍️</span>
+        <div class="flex-1">
+          <p class="font-mashan text-lg text-cuckoo-orange">积分商城</p>
+          <p class="text-white/30 text-xs font-sans mt-0.5">用积分兑换学习道具和装扮</p>
+        </div>
+        <span class="text-white/20 text-lg">→</span>
+      </div>
+    </div>
+
+  </main>
+
+  <script src="js/data.js"></script>
+  <script>
+    // 积分数据（从 localStorage 读取，初始为0）
+    let studyScore = parseInt(localStorage.getItem('cuckoo_study_score') || '0');
+    let streakDays = parseInt(localStorage.getItem('cuckoo_streak_days') || '0');
+
+    document.getElementById('studyScore').textContent = studyScore;
+    document.getElementById('streakDays').textContent = streakDays + ' 天';
+
+    // 打卡日历
+    let calYear, calMonth;
+    (function initCalendar() {
+      const now = new Date();
+      calYear = now.getFullYear();
+      calMonth = now.getMonth();
+      renderCalendar();
+    })();
+
+    function getStudyDates() {
+      try { return JSON.parse(localStorage.getItem('cuckoo_study_dates') || '[]'); }
+      catch(e) { return []; }
+    }
+
+    function renderCalendar() {
+      const studyDates = getStudyDates();
+      const months = ['1月','2月','3月','4月','5月','6月','7月','8月','9月','10月','11月','12月'];
+      document.getElementById('calendarMonth').textContent = months[calMonth] + ' ' + calYear;
+
+      const firstDay = new Date(calYear, calMonth, 1).getDay();
+      const daysInMonth = new Date(calYear, calMonth + 1, 0).getDate();
+      const today = new Date().toISOString().slice(0, 10);
+
+      let html = '';
+      for (let i = 0; i < firstDay; i++) html += '<span></span>';
+      for (let d = 1; d <= daysInMonth; d++) {
+        const dateStr = `${calYear}-${String(calMonth+1).padStart(2,'0')}-${String(d).padStart(2,'0')}`;
+        const studied = studyDates.includes(dateStr);
+        const isToday = dateStr === today;
+        let cls = 'rounded text-sm font-sans py-1 ';
+        if (studied) {
+          cls += 'bg-cuckoo-orange text-cuckoo-dark font-bold';
+        } else if (isToday) {
+          cls += 'border border-cuckoo-orange/40 text-cuckoo-orange';
+        } else {
+          cls += 'text-white/30';
+        }
+        html += `<span class="${cls}">${d}</span>`;
+      }
+      document.getElementById('calendarGrid').innerHTML = html;
+    }
+
+    function calendarShift(delta) {
+      calMonth += delta;
+      if (calMonth < 0) { calMonth = 11; calYear--; }
+      if (calMonth > 11) { calMonth = 0; calYear++; }
+      renderCalendar();
+    }
+
+    function goLearn(cat) {
+      const LEVEL_MAP = { primary: '小学', junior: '初中', senior: '高中', challenge: '挑战' };
+      localStorage.setItem('cuckoo_last_level', LEVEL_MAP[cat] || '');
+      sessionStorage.setItem('cuckoo_category', cat);
+      window.location.href = 'card.html';
+    }
+    function goShop() {
+      window.location.href = 'shop.html';
+    }
+
+    // 学习进度显示
+    function updateCategoryProgress() {
+      var CATEGORY_MAP = {
+        primary: '小学',
+        junior: '初中',
+        senior: '高中',
+        challenge: '挑战'
+      };
+      var words = typeof sampleWords !== 'undefined' ? sampleWords : [];
+
+      Object.keys(CATEGORY_MAP).forEach(function(cat) {
+        var level = CATEGORY_MAP[cat][0];
+        var total = words.filter(function(w) { return w.category === level; }).length;
+        var done = parseInt(localStorage.getItem('cuckoo_learn_progress_' + cat) || '0');
+        var el = document.getElementById('prog' + cat.charAt(0).toUpperCase() + cat.slice(1));
+        if (el) {
+          if (total > 0) {
+            var remaining = Math.max(0, total - done);
+            el.textContent = remaining > 0 ? done + '/' + total : '已完成';
+            if (remaining <= 0) el.className = 'text-cuckoo-orange/70';
+          }
+        }
+      });
+    }
+    updateCategoryProgress();
+  </script>
+</body>
+</html>

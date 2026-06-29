@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>库库象 · 词源记忆卡片</title>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Noto+Serif+SC:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            'mashan': ['Ma Shan Zheng', 'cursive'],
+            'serif': ['Noto Serif SC', 'serif']
+          },
+          colors: {
+            cuckoo: {
+              blue: '#5B7FBF',
+              orange: '#F5A623',
+              dark: '#1a2332',
+              card: '#1e2d3d'
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="min-h-screen bg-gradient-to-b from-cuckoo-dark via-[#162032] to-cuckoo-dark text-white font-serif flex flex-col">
+
+  <!-- 版权 -->
+  <div class="absolute top-4 right-5">
+    <p class="text-white/15 text-xs font-sans">© 库库象 CuckooCards · 张泽沛</p>
+  </div>
+
+  <!-- 主体 -->
+  <main class="flex-1 flex flex-col items-center justify-center px-5 py-10 max-w-sm mx-auto w-full">
+
+    <!-- IP 形象 -->
+    <div class="mb-6">
+      <img src="assets/images/库库象_标志.webp" alt="库库象" class="w-24 h-24 object-contain mx-auto">
+    </div>
+
+    <!-- 品牌名 -->
+    <h1 class="font-mashan text-4xl bg-gradient-to-r from-cuckoo-orange to-yellow-300 bg-clip-text text-transparent mb-1">库库象</h1>
+    <p class="text-white/40 text-sm font-sans mb-8">词源记忆卡片</p>
+
+    <!-- 登录/注册窗口 -->
+    <div class="glass-card p-6 w-full">
+      <!-- 标签切换 -->
+      <div class="flex mb-5">
+        <button class="flex-1 pb-2 font-mashan text-lg border-b-2 border-cuckoo-orange text-cuckoo-orange" id="tabLogin" onclick="switchTab('login')">登录</button>
+        <button class="flex-1 pb-2 font-mashan text-lg border-b-2 border-transparent text-white/30" id="tabRegister" onclick="switchTab('register')">注册</button>
+      </div>
+
+      <!-- 登录表单 -->
+      <div id="formLogin">
+        <div class="mb-4">
+          <input type="text" placeholder="手机号 / 邮箱" class="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white text-sm font-sans placeholder-white/20 focus:outline-none focus:border-cuckoo-orange/50 transition-colors">
+        </div>
+        <div class="mb-5">
+          <input type="password" placeholder="密码" class="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white text-sm font-sans placeholder-white/20 focus:outline-none focus:border-cuckoo-orange/50 transition-colors">
+        </div>
+        <button class="w-full bg-cuckoo-orange text-cuckoo-dark hover:bg-cuckoo-orange/90 rounded-lg font-mashan text-lg py-3 transition-colors">
+          登录
+        </button>
+        <p class="text-center text-white/15 text-xs mt-4 font-sans">登录即表示同意 用户协议 和 隐私政策</p>
+      </div>
+
+      <!-- 注册表单 -->
+      <div id="formRegister" class="hidden">
+        <div class="mb-4">
+          <input type="text" placeholder="手机号 / 邮箱" class="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white text-sm font-sans placeholder-white/20 focus:outline-none focus:border-cuckoo-orange/50 transition-colors">
+        </div>
+        <div class="mb-4">
+          <input type="text" placeholder="昵称" class="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white text-sm font-sans placeholder-white/20 focus:outline-none focus:border-cuckoo-orange/50 transition-colors">
+        </div>
+        <div class="mb-5">
+          <input type="password" placeholder="密码（6位以上）" class="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white text-sm font-sans placeholder-white/20 focus:outline-none focus:border-cuckoo-orange/50 transition-colors">
+        </div>
+        <button class="w-full bg-cuckoo-orange text-cuckoo-dark hover:bg-cuckoo-orange/90 rounded-lg font-mashan text-lg py-3 transition-colors">
+          注册
+        </button>
+        <p class="text-center text-white/15 text-xs mt-4 font-sans">注册即表示同意 用户协议 和 隐私政策</p>
+      </div>
+    </div>
+
+    <!-- 跳过 -->
+    <a href="index.html" class="text-white/20 text-xs font-sans mt-5 hover:text-white/40 transition-colors">跳过登录，直接浏览 →</a>
+
+  </main>
+
+  <script>
+    function switchTab(tab) {
+      const loginTab = document.getElementById('tabLogin');
+      const registerTab = document.getElementById('tabRegister');
+      const loginForm = document.getElementById('formLogin');
+      const registerForm = document.getElementById('formRegister');
+      
+      if (tab === 'login') {
+        loginTab.className = 'flex-1 pb-2 font-mashan text-lg border-b-2 border-cuckoo-orange text-cuckoo-orange';
+        registerTab.className = 'flex-1 pb-2 font-mashan text-lg border-b-2 border-transparent text-white/30';
+        loginForm.classList.remove('hidden');
+        registerForm.classList.add('hidden');
+      } else {
+        registerTab.className = 'flex-1 pb-2 font-mashan text-lg border-b-2 border-cuckoo-orange text-cuckoo-orange';
+        loginTab.className = 'flex-1 pb-2 font-mashan text-lg border-b-2 border-transparent text-white/30';
+        registerForm.classList.remove('hidden');
+        loginForm.classList.add('hidden');
+      }
+    }
+  </script>
+</body>
+</html>

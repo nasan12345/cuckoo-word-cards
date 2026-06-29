@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>卡片学习 · 库库象</title>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Noto+Serif+SC:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Firebase SDK -->
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore-compat.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            'mashan': ['Ma Shan Zheng', 'cursive'],
+            'serif': ['Noto Serif SC', 'serif']
+          },
+          colors: {
+            cuckoo: {
+              blue: '#5B7FBF',
+              orange: '#F5A623',
+              dark: '#1a2332',
+              card: '#1e2d3d'
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="min-h-screen bg-gradient-to-b from-cuckoo-dark via-[#162032] to-cuckoo-dark text-white font-serif">
+
+  <!-- 登录遮罩（未登录时显示） -->
+  <div id="loginGate" class="fixed inset-0 z-[9999] bg-gradient-to-b from-cuckoo-dark via-[#162032] to-cuckoo-dark flex items-center justify-center">
+    <div class="text-center px-6 max-w-sm w-full">
+      <div class="mb-6">
+        <img src="assets/images/库库象_标志.webp" alt="库库象" class="w-20 h-20 object-contain mx-auto mb-4">
+        <h1 class="font-mashan text-3xl bg-gradient-to-r from-cuckoo-orange to-yellow-300 bg-clip-text text-transparent mb-2">库库象</h1>
+        <p class="text-white/40 text-sm font-sans">登录后同步学习进度</p>
+      </div>
+      <button id="googleLoginBtn" class="btn w-full bg-white/90 text-gray-800 hover:bg-white border-none font-sans text-base h-12 mb-3 flex items-center justify-center gap-2">
+        <svg class="w-5 h-5" viewBox="0 0 24 24"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 01-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg>
+        Google 账号登录
+      </button>
+      <p id="loginError" class="text-red-400 text-xs font-sans hidden mt-2"></p>
+      <p class="text-white/15 text-xs font-sans mt-6">登录即表示同意服务条款和隐私政策</p>
+      <p class="text-white/40 text-xs font-sans mt-1">by William Zhang</p>
+    </div>
+  </div>
+
+  <!-- 顶部栏 -->
+  <header class="sticky top-0 z-50 backdrop-blur-xl bg-cuckoo-dark/80 border-b border-white/5">
+    <div class="max-w-lg mx-auto px-5 py-3 flex items-center justify-between">
+      <a href="index.html" class="text-white/60 hover:text-white transition-colors text-sm font-sans flex items-center gap-1">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        词库
+      </a>
+      <span class="text-white/30 text-xs font-sans" id="cardCounter">1 / 10</span>
+      <div class="flex items-center gap-2">
+        <span id="userDisplay" class="text-white/40 text-xs font-sans hidden"></span>
+        <button id="logoutBtn" class="text-white/30 hover:text-white/60 text-xs font-sans hidden transition-colors">退出</button>
+        <div class="flex items-center gap-1">
+          <img src="assets/images/库库象_标志.webp" alt="库库象" class="w-6 h-6 object-contain">
+          <span class="font-mashan text-sm text-cuckoo-orange">库库象</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- 进度条 -->
+  <div class="max-w-lg mx-auto px-5 mt-3">
+    <progress class="progress progress-warning w-full h-1.5" value="0" max="10" id="progressBar"></progress>
+  </div>
+
+  <main class="max-w-lg mx-auto px-5 mt-8 pb-24">
+    <!-- 卡片区域 -->
+    <div class="card-wrapper mx-auto">
+      <div class="card-3d" id="card3d">
+        <!-- 正面 -->
+        <div class="card-face card-front glass-card rounded-2xl overflow-hidden">
+          <div class="aspect-square w-full bg-gradient-to-br from-cuckoo-blue/20 to-cuckoo-blue/5 flex items-center justify-center relative overflow-hidden" id="cardImage">
+            <!-- JS 动态填充 -->
+          </div>
+          <div class="p-5 text-center">
+            <h2 class="font-bold text-6xl text-white mb-2" id="cardWord">—</h2>
+            <p class="text-white/50 text-2xl mb-1 font-serif" id="cardChinese">—</p>
+            <p class="text-cuckoo-orange/70 text-base mb-2 font-sans" id="cardPhonetic">—</p>
+            <p class="text-white/40 text-sm font-sans" id="cardSource">—</p>
+            <p class="text-white/20 text-sm mt-3 font-sans">👆 点击卡片翻转</p>
+          </div>
+        </div>
+        <!-- 背面 -->
+        <div class="card-face card-back glass-card rounded-2xl overflow-hidden">
+          <div class="p-6">
+            <!-- 词条信息 -->
+            <div class="text-center mb-5 pb-4 border-b border-white/5">
+              <h2 class="font-bold text-5xl text-white mb-2" id="cardWordBack">—</h2>
+              <p class="text-white/50 text-lg mb-1" id="cardChineseBack">—</p>
+              <p class="text-cuckoo-orange/70 text-sm mb-1 font-sans" id="cardPhoneticBack">—</p>
+              <p class="text-white/40 text-sm font-sans" id="cardSourceBack">—</p>
+            </div>
+            <!-- 拆分 -->
+            <div class="mb-5">
+              <div class="flex items-center gap-2 mb-3">
+                <span class="w-1 h-5 rounded-full bg-cuckoo-blue"></span>
+                <h3 class="font-mashan text-lg text-cuckoo-blue">拆分</h3>
+              </div>
+              <p class="text-white/80 text-sm leading-relaxed" id="cardEtymology">—</p>
+            </div>
+            
+            <!-- 分割线 -->
+            <div class="border-t border-white/5 mb-5"></div>
+
+            <!-- 联想 -->
+            <div class="mb-5">
+              <div class="flex items-center gap-2 mb-3">
+                <span class="w-1 h-5 rounded-full bg-cuckoo-orange"></span>
+                <h3 class="font-mashan text-lg text-cuckoo-orange">联想</h3>
+              </div>
+              <div class="flex items-start gap-2 p-3 rounded-lg bg-cuckoo-orange/5 border border-cuckoo-orange/10">
+                <span class="text-lg shrink-0">💡</span>
+                <p class="text-white/70 text-sm leading-relaxed" id="cardTip">—</p>
+              </div>
+              <div class="mt-3 rounded-lg overflow-hidden bg-cuckoo-orange/5" id="cardAssociationImage" style="display:none">
+                <!-- 联想配图已移除 -->
+              </div>
+            </div>
+            
+            <!-- 来源 -->
+            <div class="flex items-center gap-2">
+              <span class="badge badge-sm bg-cuckoo-blue/20 text-cuckoo-blue border-cuckoo-blue/30 font-sans" id="cardSourceBadge">—</span>
+              <span class="text-white/30 text-xs" id="cardRelated">—</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 翻转提示 / 自评按钮 -->
+    <div class="mt-6" id="actionArea">
+      <p class="text-center text-white/25 text-xs font-sans" id="flipHint">点击卡片查看词源</p>
+      <div class="hidden mt-5 flex gap-2" id="ratingButtons">
+        <button class="btn flex-1 bg-cuckoo-blue/20 text-cuckoo-blue border-cuckoo-blue/30 hover:bg-cuckoo-blue/30 font-sans text-lg px-1 h-14" onclick="rate('know')">
+          ✅ 认识
+        </button>
+        <button class="btn flex-1 bg-cuckoo-orange/15 text-cuckoo-orange border-cuckoo-orange/30 hover:bg-cuckoo-orange/25 font-sans text-lg px-1 h-14" onclick="rate('unsure')">
+          🤔 不确定
+        </button>
+        <button class="btn flex-1 bg-white/5 text-white/50 border-white/10 hover:bg-white/10 font-sans text-lg px-1 h-14" onclick="rate('unknown')">
+          ❌ 不认识
+        </button>
+      </div>
+    </div>
+
+    <!-- 下一词按钮 -->
+    <div class="hidden mt-5 text-center" id="nextButton">
+      <button class="btn btn-outline border-cuckoo-orange/40 text-cuckoo-orange hover:bg-cuckoo-orange/10 font-mashan text-lg px-8 h-12 rounded-full"
+              onclick="nextCard()">
+        下一个词 →
+      </button>
+    </div>
+
+    <!-- 完成提示 -->
+    <div class="hidden mt-10 text-center glass-card p-8" id="completeScreen">
+      <span class="text-6xl block mb-4">🎉</span>
+      <h2 class="font-mashan text-2xl text-cuckoo-orange mb-2">本轮完成</h2>
+      <p class="text-white/50 text-sm mb-5" id="completeStats"></p>
+      <div class="flex flex-col gap-3 items-center">
+        <button class="btn bg-cuckoo-orange/80 text-cuckoo-dark hover:bg-cuckoo-orange border-none font-mashan px-8 rounded-full text-lg w-full max-w-xs" onclick="restartLearning()">
+          重新开始
+        </button>
+        <a href="index.html" class="btn btn-outline border-white/20 text-white/60 hover:bg-white/5 font-mashan px-8 rounded-full text-lg w-full max-w-xs">
+          返回词库
+        </a>
+      </div>
+    </div>
+
+    <!-- 继续学习提示（从断点恢复时显示） -->
+    <div class="hidden text-center mt-2" id="resumeHint">
+      <span class="text-white/25 text-xs font-sans">📌 从上次中断位置继续学习</span>
+      <button class="ml-2 text-cuckoo-orange/60 hover:text-cuckoo-orange text-xs font-sans underline transition-colors" onclick="restartLearning()">重新开始</button>
+    </div>
+  </main>
+
+  <script src="js/firebase.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/card.js"></script>
+
+  <!-- 认证门控 -->
+  <script>
+  (function() {
+    const loginGate = document.getElementById('loginGate');
+    const googleBtn = document.getElementById('googleLoginBtn');
+    const loginError = document.getElementById('loginError');
+    const userDisplay = document.getElementById('userDisplay');
+    const logoutBtn = document.getElementById('logoutBtn');
+
+    function showLogin() {
+      loginGate.classList.remove('hidden');
+    }
+    function hideLogin(user) {
+      loginGate.classList.add('hidden');
+      if (user) {
+        userDisplay.textContent = user.displayName || user.email || '已登录';
+        userDisplay.classList.remove('hidden');
+        logoutBtn.classList.remove('hidden');
+      }
+    }
+
+    // 等待 firebase.js 初始化
+    function waitForFirebase(cb) {
+      if (window.CuckooFirebase) {
+        cb();
+        return;
+      }
+      setTimeout(() => waitForFirebase(cb), 100);
+    }
+
+    waitForFirebase(function() {
+      window.CuckooFirebase.onAuthStateChanged(function(user) {
+        if (user) {
+          hideLogin(user);
+        } else {
+          showLogin();
+        }
+      });
+
+      googleBtn.addEventListener('click', async function() {
+        googleBtn.disabled = true;
+        googleBtn.textContent = '登录中...';
+        loginError.classList.add('hidden');
+        try {
+          await window.CuckooFirebase.signInWithGoogle();
+        } catch (e) {
+          loginError.textContent = '登录失败: ' + (e.message || '请重试');
+          loginError.classList.remove('hidden');
+          googleBtn.disabled = false;
+          googleBtn.textContent = 'Google 账号登录';
+        }
+      });
+
+      logoutBtn.addEventListener('click', async function() {
+        await window.CuckooFirebase.signOut();
+      });
+    });
+  })();
+  </script>
+</body>
+</html>

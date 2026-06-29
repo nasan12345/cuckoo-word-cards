@@ -1,0 +1,4132 @@
+[
+  {
+    "word": "afraid",
+    "chinese": "害怕",
+    "phonetic": "/əˈfɹeɪd/",
+    "category": "小学",
+    "etymology": "古法语 esfreer = ex-(加强)+freour(恐惧)",
+    "tip": "af(fray)惊吓 + -ed→受惊的",
+    "source": "古法语",
+    "hasImage": true
+  },
+  {
+    "word": "afternoon",
+    "chinese": "下午",
+    "phonetic": "/af.təɾˈnʉːn/",
+    "category": "小学",
+    "etymology": "古英语 æfter(后)+non(中午)",
+    "tip": "after后+noon中午→下午",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "age",
+    "chinese": "年龄",
+    "phonetic": "/eɪd͡ʒ/",
+    "category": "小学",
+    "etymology": "古法语 aage ← 拉丁 aetaticum ← aetas(年龄)",
+    "tip": "来自拉丁 aevum(永恒/寿命)",
+    "source": "古法语/拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "air",
+    "chinese": "空气",
+    "phonetic": "/ˈɛə/",
+    "category": "小学",
+    "etymology": "古法语 air ← 拉丁 aer ← 希腊 aer(空气)",
+    "tip": "不可拆分，词根为 aer-",
+    "source": "拉丁语/希腊语",
+    "hasImage": true
+  },
+  {
+    "word": "angry",
+    "chinese": "愤怒",
+    "phonetic": "/ˈæŋ.ɡɹi/",
+    "category": "小学",
+    "etymology": "古Norse angr(悲伤/麻烦) → anger+-y",
+    "tip": "anger愤怒+-y",
+    "source": "古诺斯语",
+    "hasImage": true
+  },
+  {
+    "word": "animal",
+    "chinese": "动物",
+    "phonetic": "/ˈænɪməl/",
+    "category": "小学",
+    "etymology": "拉丁 animalis ← anima(呼吸/灵魂)",
+    "tip": "anim-生命→\"有生命的\"",
+    "source": "拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "answer",
+    "chinese": "回答",
+    "phonetic": "/ˈan.sə/",
+    "category": "小学",
+    "etymology": "古英语 andswaru = and-(反对)+swaru(发誓)",
+    "tip": "复合词，不可拆分",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "apple",
+    "chinese": "苹果",
+    "phonetic": "/ˈæp.əl/",
+    "category": "小学",
+    "etymology": "古英语 æppel",
+    "tip": "日耳曼语通用水果词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "arm",
+    "chinese": "手臂",
+    "phonetic": "/ɑːm/",
+    "category": "小学",
+    "etymology": "古英语 earm",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "art",
+    "chinese": "艺术",
+    "phonetic": "/ɑːt/",
+    "category": "小学",
+    "etymology": "拉丁 ars(技艺/艺术)",
+    "tip": "不可拆分，词根 art-=技艺",
+    "source": "拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "ask",
+    "chinese": "问",
+    "phonetic": "/ˈask/",
+    "category": "小学",
+    "etymology": "古英语 ascian",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "astronaut",
+    "chinese": "宇航员",
+    "phonetic": "/ˈæstɹəˌnɒt/",
+    "category": "小学",
+    "etymology": "希腊 astron(星)+nautes(航行者)",
+    "tip": "astro-星 + naut-航行者",
+    "source": "希腊语",
+    "hasImage": true
+  },
+  {
+    "word": "aunt",
+    "chinese": "阿姨",
+    "phonetic": "/ɑ(ː)nt/",
+    "category": "小学",
+    "etymology": "古法语 ante ← 拉丁 amita(父亲的姐妹)",
+    "tip": "不可拆分",
+    "source": "古法语/拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "autumn",
+    "chinese": "秋天",
+    "phonetic": "/ˈɔːtəm/",
+    "category": "小学",
+    "etymology": "古法语 autompne ← 拉丁 autumnus",
+    "tip": "不可拆分，可能来自伊特鲁里亚语",
+    "source": "拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "baby",
+    "chinese": "婴儿",
+    "phonetic": "/ˈbeɪbi/",
+    "category": "小学",
+    "etymology": "中古英语 babi，拟声词",
+    "tip": "拟声词ba-ba→婴儿",
+    "source": "中古英语",
+    "hasImage": true
+  },
+  {
+    "word": "back",
+    "chinese": "背部",
+    "phonetic": "/bæk/",
+    "category": "小学",
+    "etymology": "古英语bæc，日耳曼语源",
+    "tip": "不可拆分",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "bad",
+    "chinese": "坏的",
+    "phonetic": "/bæːd/",
+    "category": "小学",
+    "etymology": "古英语 bæddel(雌雄同体→贬义)",
+    "tip": "不可拆分",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "bag",
+    "chinese": "包",
+    "phonetic": "/ˈbæːɡ/",
+    "category": "小学",
+    "etymology": "古Norse baggi(包/袋)",
+    "tip": "不可拆分",
+    "source": "古诺斯语",
+    "hasImage": true
+  },
+  {
+    "word": "ball",
+    "chinese": "球",
+    "phonetic": "/bɔːl/",
+    "category": "小学",
+    "etymology": "古Norse bollr(球)",
+    "tip": "不可拆分",
+    "source": "古诺斯语",
+    "hasImage": true
+  },
+  {
+    "word": "banana",
+    "chinese": "香蕉",
+    "phonetic": "/bəˈnɑːnə/",
+    "category": "小学",
+    "etymology": "西非沃洛夫语 banana",
+    "tip": "借词，不可拆分",
+    "source": "西非语言",
+    "hasImage": true
+  },
+  {
+    "word": "basketball",
+    "chinese": "篮球",
+    "phonetic": "/ˈbɑːs.kɪt.bɔːl/",
+    "category": "小学",
+    "etymology": "古英语 bæsket(篮)+古Norse bollr(球)",
+    "tip": "basket篮+ball球",
+    "source": "古英语+古诺斯语",
+    "hasImage": true
+  },
+  {
+    "word": "beach",
+    "chinese": "海滩",
+    "phonetic": "/biːt͡ʃ/",
+    "category": "小学",
+    "etymology": "古英语 bæce(溪流/河岸)",
+    "tip": "不可拆分",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "bear",
+    "chinese": "熊",
+    "phonetic": "/bɛə(ɹ)/",
+    "category": "小学",
+    "etymology": "古英语 beran(携带/承受)",
+    "tip": "不可拆分",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "beautiful",
+    "chinese": "美丽",
+    "phonetic": "/ˈbjuːtɪfəl/",
+    "category": "小学",
+    "etymology": "古法语 beaute(美,拉丁bellus) + -ful",
+    "tip": "beau-美 + -ful充满",
+    "source": "古法语/拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "bed",
+    "chinese": "床",
+    "phonetic": "/bed/",
+    "category": "小学",
+    "etymology": "古英语 bedd",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "bee",
+    "chinese": "蜜蜂",
+    "phonetic": "/ˈbiː/",
+    "category": "小学",
+    "etymology": "古英语 beo",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "begin",
+    "chinese": "开始",
+    "phonetic": "/biˈɡɪn/",
+    "category": "小学",
+    "etymology": "古英语 beginnan = be-+ginnan(开始)",
+    "tip": "be-+gin开始",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "best",
+    "chinese": "最好的",
+    "phonetic": "/ˈbɛst/",
+    "category": "小学",
+    "etymology": "good的最高级，古英语betst",
+    "tip": "不可拆分",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "big",
+    "chinese": "大的",
+    "phonetic": "/bɪɡ/",
+    "category": "小学",
+    "etymology": "中古英语 big，来源不确定",
+    "tip": "不可拆分",
+    "source": "中古英语",
+    "hasImage": true
+  },
+  {
+    "word": "bike",
+    "chinese": "自行车",
+    "phonetic": "/[bɐɪk]/",
+    "category": "小学",
+    "etymology": "bicycle的缩写",
+    "tip": "bicycle的缩写形式",
+    "source": "英语缩写",
+    "hasImage": true
+  },
+  {
+    "word": "bird",
+    "chinese": "鸟",
+    "phonetic": "/bɜd/",
+    "category": "小学",
+    "etymology": "古英语 bridd(幼鸟)",
+    "tip": "不可拆分",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "birthday",
+    "chinese": "生日",
+    "phonetic": "/ˈbɜːθ.deɪ/",
+    "category": "小学",
+    "etymology": "古Norse byrðr(出生)+古英语 dæg(日)",
+    "tip": "birth出生+day日",
+    "source": "古诺斯语+古英语",
+    "hasImage": true
+  },
+  {
+    "word": "black",
+    "chinese": "黑色",
+    "phonetic": "/blak/",
+    "category": "小学",
+    "etymology": "古英语 blæc",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "blackboard",
+    "chinese": "黑板",
+    "phonetic": "/ˈblækbɔːd/",
+    "category": "小学",
+    "etymology": "古英语 blæc(黑)+bord(板)",
+    "tip": "black黑+board板",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "blue",
+    "chinese": "蓝色",
+    "phonetic": "/bluː/",
+    "category": "小学",
+    "etymology": "古法语 bleu，日耳曼起源",
+    "tip": "不可拆分",
+    "source": "古法语",
+    "hasImage": true
+  },
+  {
+    "word": "boat",
+    "chinese": "船",
+    "phonetic": "/bəʊt/",
+    "category": "小学",
+    "etymology": "古英语 bat",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "body",
+    "chinese": "身体",
+    "phonetic": "/ˈbɒdi/",
+    "category": "小学",
+    "etymology": "古英语 bodig",
+    "tip": "不可拆分",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "book",
+    "chinese": "书",
+    "phonetic": "/buːk/",
+    "category": "小学",
+    "etymology": "古英语 boc(书/榉木)",
+    "tip": "原意\"榉木→刻字木板\"",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "box",
+    "chinese": "盒子",
+    "phonetic": "/bɒks/",
+    "category": "小学",
+    "etymology": "晚期古英语 box ← 拉丁 buxis ← 希腊 pyxis",
+    "tip": "不可拆分",
+    "source": "拉丁语/希腊语",
+    "hasImage": true
+  },
+  {
+    "word": "boy",
+    "chinese": "男孩",
+    "phonetic": "/bɔːə/",
+    "category": "小学",
+    "etymology": "中古英语 boi，来源不确定",
+    "tip": "不可拆分",
+    "source": "中古英语",
+    "hasImage": true
+  },
+  {
+    "word": "bread",
+    "chinese": "面包",
+    "phonetic": "/bɹeːd/",
+    "category": "小学",
+    "etymology": "古英语 bread(面包/碎块)",
+    "tip": "不可拆分",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "breakfast",
+    "chinese": "早餐",
+    "phonetic": "/ˈbɹɛkfəst/",
+    "category": "小学",
+    "etymology": "古英语 brecan(打破)+fæstan(禁食)",
+    "tip": "break打破+fast禁食→开斋",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "bring",
+    "chinese": "带来",
+    "phonetic": "/ˈbɹɪŋ/",
+    "category": "小学",
+    "etymology": "古英语 bringan",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "brother",
+    "chinese": "兄弟",
+    "phonetic": "/ˈbɹɐðɘ(ɹ)/",
+    "category": "小学",
+    "etymology": "古英语 broðor",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "brown",
+    "chinese": "棕色",
+    "phonetic": "/bɹaʊn/",
+    "category": "小学",
+    "etymology": "古英语 brun",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "bus",
+    "chinese": "公共汽车",
+    "phonetic": "/bɐs/",
+    "category": "小学",
+    "etymology": "拉丁 omnibus(为所有人)的缩写",
+    "tip": "omni-所有→公共马车→公交",
+    "source": "拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "busy",
+    "chinese": "忙碌的",
+    "phonetic": "/ˈbɪzi/",
+    "category": "小学",
+    "etymology": "古英语 bisig",
+    "tip": "不可拆分",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "buy",
+    "chinese": "买",
+    "phonetic": "/baɪ/",
+    "category": "小学",
+    "etymology": "古英语 bycgan",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "cake",
+    "chinese": "蛋糕",
+    "phonetic": "/keɪk/",
+    "category": "小学",
+    "etymology": "古Norse kaka",
+    "tip": "不可拆分",
+    "source": "古诺斯语",
+    "hasImage": true
+  },
+  {
+    "word": "call",
+    "chinese": "打电话",
+    "phonetic": "/kɔːɫ/",
+    "category": "小学",
+    "etymology": "古Norse kalla",
+    "tip": "不可拆分",
+    "source": "古诺斯语",
+    "hasImage": true
+  },
+  {
+    "word": "candle",
+    "chinese": "蜡烛",
+    "phonetic": "/ˈkændl̩/",
+    "category": "小学",
+    "etymology": "拉丁 candela ← candere(发光/白色)",
+    "tip": "cand-光→蜡烛",
+    "source": "拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "candy",
+    "chinese": "糖果",
+    "phonetic": "/ˈkændi/",
+    "category": "小学",
+    "etymology": "阿拉伯语 qandi(糖)，经法语传入",
+    "tip": "借词，不可拆分",
+    "source": "阿拉伯语/法语",
+    "hasImage": true
+  },
+  {
+    "word": "cap",
+    "chinese": "帽子",
+    "phonetic": "/kæp/",
+    "category": "小学",
+    "etymology": "古法语 cape ← 拉丁 cappa(兜帽)",
+    "tip": "不可拆分",
+    "source": "拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "car",
+    "chinese": "汽车",
+    "phonetic": "/kɑː/",
+    "category": "小学",
+    "etymology": "拉丁 carrum ← 高卢语 karros(战车)",
+    "tip": "不可拆分",
+    "source": "拉丁语/凯尔特语",
+    "hasImage": true
+  },
+  {
+    "word": "card",
+    "chinese": "卡片",
+    "phonetic": "/kaːd/",
+    "category": "小学",
+    "etymology": "中古法语 carte ← 拉丁 charta ← 希腊 khartes",
+    "tip": "不可拆分",
+    "source": "拉丁语/希腊语",
+    "hasImage": true
+  },
+  {
+    "word": "careful",
+    "chinese": "小心的",
+    "phonetic": "/ˈkɛːfəl/",
+    "category": "小学",
+    "etymology": "古英语 caru(关心)+-ful",
+    "tip": "care关心+-ful充满",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "cat",
+    "chinese": "猫",
+    "phonetic": "/kat/",
+    "category": "小学",
+    "etymology": "古英语 catt",
+    "tip": "日耳曼语通用拟声词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "catch",
+    "chinese": "抓住",
+    "phonetic": "/kæt͡ʃ/",
+    "category": "小学",
+    "etymology": "古北部法语 cachier ← 晚期拉丁 captiare",
+    "tip": "不可拆分，与capture同源",
+    "source": "古法语/拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "chair",
+    "chinese": "椅子",
+    "phonetic": "/t͡ʃɛə(ɹ)/",
+    "category": "小学",
+    "etymology": "古法语 chaiere ← 拉丁 cathedra(扶手座位)",
+    "tip": "cathedra = cat-下+hedra坐",
+    "source": "古法语/拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "chicken",
+    "chinese": "鸡",
+    "phonetic": "/ˈt͡ʃɪkɪn/",
+    "category": "小学",
+    "etymology": "古英语 cicen(小鸡)",
+    "tip": "chick+-en小称",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "child",
+    "chinese": "孩子",
+    "phonetic": "/t͡ʃaɪld/",
+    "category": "小学",
+    "etymology": "古英语 cild",
+    "tip": "不可拆分",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "china",
+    "chinese": "中国",
+    "phonetic": "/tʃʌɪnə/",
+    "category": "小学",
+    "etymology": "波斯语 Chin(秦)，经梵语传入",
+    "tip": "借词，不可拆分",
+    "source": "波斯语/梵语",
+    "hasImage": true
+  },
+  {
+    "word": "chinese",
+    "chinese": "中文",
+    "phonetic": "/ˌtʃaɪˈniːz/",
+    "category": "小学",
+    "etymology": "China+-ese(属于)",
+    "tip": "China+-ese",
+    "source": "英语派生",
+    "hasImage": true
+  },
+  {
+    "word": "chore",
+    "chinese": "家务",
+    "phonetic": "/tʃɔː/",
+    "category": "小学",
+    "etymology": "中古英语 char(零工/杂务)",
+    "tip": "不可拆分",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "cinema",
+    "chinese": "电影院",
+    "phonetic": "/ˈsɪn.ɪ.mɑː/",
+    "category": "小学",
+    "etymology": "法语 cinematographe ← 希腊 kinema(运动)+graphein(记录)",
+    "tip": "cine-运动→电影",
+    "source": "希腊语",
+    "hasImage": true
+  },
+  {
+    "word": "city",
+    "chinese": "城市",
+    "phonetic": "/sɪtɪ/",
+    "category": "小学",
+    "etymology": "古法语 cite ← 拉丁 civitas(公民权/城市)",
+    "tip": "civ-公民→城市",
+    "source": "拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "class",
+    "chinese": "班级",
+    "phonetic": "/klas/",
+    "category": "小学",
+    "etymology": "拉丁 classis(等级/班级)",
+    "tip": "原意为\"被召集的人群\"",
+    "source": "拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "classroom",
+    "chinese": "教室",
+    "phonetic": "/ˈklɑːsɹʊm/",
+    "category": "小学",
+    "etymology": "拉丁 classis(班级) + 古英语 room(房间)",
+    "tip": "class班 + room房",
+    "source": "拉丁+古英语",
+    "hasImage": true
+  },
+  {
+    "word": "clean",
+    "chinese": "干净的",
+    "phonetic": "/kleːn/",
+    "category": "小学",
+    "etymology": "古英语 clæne",
+    "tip": "不可拆分",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "clever",
+    "chinese": "聪明的",
+    "phonetic": "/ˈklɛvɚ/",
+    "category": "小学",
+    "etymology": "中古英语 cliver，来源不确定",
+    "tip": "不可拆分",
+    "source": "中古英语",
+    "hasImage": true
+  },
+  {
+    "word": "clock",
+    "chinese": "时钟",
+    "phonetic": "/klɒk/",
+    "category": "小学",
+    "etymology": "中古荷兰语 clocke(钟)",
+    "tip": "不可拆分",
+    "source": "中古荷兰语",
+    "hasImage": true
+  },
+  {
+    "word": "close",
+    "chinese": "关闭",
+    "phonetic": "/kləʊz/",
+    "category": "小学",
+    "etymology": "古法语 clos ← 拉丁 clausus(关闭的)",
+    "tip": "clos-关闭",
+    "source": "拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "clothes",
+    "chinese": "衣服",
+    "phonetic": "/kləʊ(ð)z/",
+    "category": "小学",
+    "etymology": "古英语 claðas(cloth的复数)",
+    "tip": "cloth+-es复数",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "cloudy",
+    "chinese": "多云的",
+    "phonetic": "/ˈklaʊːdɪ/",
+    "category": "小学",
+    "etymology": "古英语 clud(云)+-y",
+    "tip": "cloud云+-y",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "coat",
+    "chinese": "外套",
+    "phonetic": "/kəʊt/",
+    "category": "小学",
+    "etymology": "古法语 cote，可能来自法兰克语",
+    "tip": "不可拆分",
+    "source": "古法语",
+    "hasImage": true
+  },
+  {
+    "word": "cold",
+    "chinese": "冷的",
+    "phonetic": "/kɔʊld/",
+    "category": "小学",
+    "etymology": "古英语 cald",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "colour",
+    "chinese": "颜色",
+    "phonetic": "/ˈkʌlər/",
+    "category": "小学",
+    "etymology": "古法语 colour ← 拉丁 color",
+    "tip": "不可拆分",
+    "source": "古法语/拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "come",
+    "chinese": "来",
+    "phonetic": "/kʌm/",
+    "category": "小学",
+    "etymology": "古英语 cuman",
+    "tip": "日耳曼语核心动词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "computer",
+    "chinese": "电脑",
+    "phonetic": "/kəmˈpjuːtə/",
+    "category": "小学",
+    "etymology": "拉丁 computare = com-(一起)+putare(计算)",
+    "tip": "com-一起 + put-计算",
+    "source": "拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "cook",
+    "chinese": "烹饪",
+    "phonetic": "/kuːk/",
+    "category": "小学",
+    "etymology": "晚期古英语 coc ← 拉丁 coquus ← coquere(烹饪)",
+    "tip": "不可拆分",
+    "source": "拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "cool",
+    "chinese": "凉爽的",
+    "phonetic": "/kuːl/",
+    "category": "小学",
+    "etymology": "古英语 col",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "cousin",
+    "chinese": "表亲",
+    "phonetic": "/ˈkʌz.n̩/",
+    "category": "小学",
+    "etymology": "古法语 cosin ← 拉丁 consobrinus(表亲)",
+    "tip": "con-共同 + sobrinus表亲",
+    "source": "古法语/拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "cow",
+    "chinese": "奶牛",
+    "phonetic": "/kaʊ/",
+    "category": "小学",
+    "etymology": "古英语 cu",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "crayon",
+    "chinese": "蜡笔",
+    "phonetic": "/ˈkɹeɪ.ɒ̃/",
+    "category": "小学",
+    "etymology": "法语 crayon ← craie(粉笔) ← 拉丁 creta",
+    "tip": "不可拆分",
+    "source": "法语/拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "cry",
+    "chinese": "哭",
+    "phonetic": "/kɹaɪ̯/",
+    "category": "小学",
+    "etymology": "古法语 crier，来自通俗拉丁 critare",
+    "tip": "不可拆分",
+    "source": "古法语",
+    "hasImage": true
+  },
+  {
+    "word": "cup",
+    "chinese": "杯子",
+    "phonetic": "/kʌp/",
+    "category": "小学",
+    "etymology": "古英语 cuppe ← 拉丁 cuppa ← cupa(桶)",
+    "tip": "不可拆分",
+    "source": "拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "cute",
+    "chinese": "可爱的",
+    "phonetic": "/kjuːt/",
+    "category": "小学",
+    "etymology": "acute的缩写 ← 拉丁 acutus(尖锐)",
+    "tip": "ac-尖→敏锐→可爱",
+    "source": "拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "dance",
+    "chinese": "跳舞",
+    "phonetic": "/[dæːns]/",
+    "category": "小学",
+    "etymology": "古法语 dancer，可能来自法兰克语",
+    "tip": "不可拆分",
+    "source": "古法语",
+    "hasImage": true
+  },
+  {
+    "word": "day",
+    "chinese": "天",
+    "phonetic": "/deɪ/",
+    "category": "小学",
+    "etymology": "古英语 dæg",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "dear",
+    "chinese": "亲爱的",
+    "phonetic": "/diːɹ/",
+    "category": "小学",
+    "etymology": "古英语 deore(珍贵的)",
+    "tip": "不可拆分",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "desk",
+    "chinese": "书桌",
+    "phonetic": "/dɛsk/",
+    "category": "小学",
+    "etymology": "中世纪拉丁 desca ← 拉丁 discus(圆盘/桌面)",
+    "tip": "不可拆分",
+    "source": "拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "difficult",
+    "chinese": "困难的",
+    "phonetic": "/ˈdɪfɪkəlt/",
+    "category": "小学",
+    "etymology": "拉丁 difficilis = dis-(不)+facilis(容易)",
+    "tip": "dif-不 + fic-做→难做",
+    "source": "拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "dinner",
+    "chinese": "晚餐",
+    "phonetic": "/ˈdɪnə/",
+    "category": "小学",
+    "etymology": "古法语 disner ← 通俗拉丁 disjejunare(开斋)",
+    "tip": "dis-结束 + jejun-禁食→开斋饭",
+    "source": "古法语/拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "dirty",
+    "chinese": "脏的",
+    "phonetic": "/ˈdɜːti/",
+    "category": "小学",
+    "etymology": "古Norse drit(粪)+-y",
+    "tip": "dirt污垢+-y",
+    "source": "古诺斯语",
+    "hasImage": true
+  },
+  {
+    "word": "doctor",
+    "chinese": "医生",
+    "phonetic": "/ˈdɒktə/",
+    "category": "小学",
+    "etymology": "古法语 doctour ← 拉丁 doctor(教师) ← docere(教)",
+    "tip": "doc-教→医生/博士",
+    "source": "拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "dog",
+    "chinese": "狗",
+    "phonetic": "/dɑɡ/",
+    "category": "小学",
+    "etymology": "古英语 docga，来源不明",
+    "tip": "不可拆分",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "doll",
+    "chinese": "玩偶",
+    "phonetic": "/dɒl/",
+    "category": "小学",
+    "etymology": "Dorothy的昵称变体",
+    "tip": "由人名派生",
+    "source": "英语",
+    "hasImage": true
+  },
+  {
+    "word": "door",
+    "chinese": "门",
+    "phonetic": "/dɔː/",
+    "category": "小学",
+    "etymology": "古英语 duru",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "draw",
+    "chinese": "画",
+    "phonetic": "/dɹɔː/",
+    "category": "小学",
+    "etymology": "古英语 dragan",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "dress",
+    "chinese": "连衣裙",
+    "phonetic": "/dɹɛs/",
+    "category": "小学",
+    "etymology": "古法语 drecier ← 晚期拉丁 directiare(整理)",
+    "tip": "不可拆分",
+    "source": "古法语/拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "drink",
+    "chinese": "喝",
+    "phonetic": "/dɹɪŋk/",
+    "category": "小学",
+    "etymology": "古英语 drincan",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "driver",
+    "chinese": "司机",
+    "phonetic": "/ˈdɹaɪ.və(ɹ)/",
+    "category": "小学",
+    "etymology": "古英语 drifan(驱动)+-er",
+    "tip": "drive驾驶+-er人",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "duck",
+    "chinese": "鸭子",
+    "phonetic": "/dʌk/",
+    "category": "小学",
+    "etymology": "古英语 duce(潜水者→鸭子)",
+    "tip": "不可拆分",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "ear",
+    "chinese": "耳朵",
+    "phonetic": "/ɪə̯/",
+    "category": "小学",
+    "etymology": "古英语 eare",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "early",
+    "chinese": "早的",
+    "phonetic": "/ˈɜː.li/",
+    "category": "小学",
+    "etymology": "古英语 ærlice = ær(早)+-lice(-ly)",
+    "tip": "ear-早+-ly",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "earth",
+    "chinese": "地球",
+    "phonetic": "/ɜːθ/",
+    "category": "小学",
+    "etymology": "古英语 eorðe",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "easy",
+    "chinese": "容易的",
+    "phonetic": "/ˈiːzi/",
+    "category": "小学",
+    "etymology": "古法语 aisie ← aise(舒适)",
+    "tip": "不可拆分",
+    "source": "古法语",
+    "hasImage": true
+  },
+  {
+    "word": "eat",
+    "chinese": "吃",
+    "phonetic": "/iːt/",
+    "category": "小学",
+    "etymology": "古英语 etan",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "egg",
+    "chinese": "蛋",
+    "phonetic": "/eɪɡ/",
+    "category": "小学",
+    "etymology": "古Norse egg",
+    "tip": "日耳曼语通用词",
+    "source": "古诺斯语",
+    "hasImage": true
+  },
+  {
+    "word": "elephant",
+    "chinese": "大象",
+    "phonetic": "/ˈɛləfənt/",
+    "category": "小学",
+    "etymology": "古法语 olifant ← 拉丁 elephantus ← 希腊 elephas",
+    "tip": "不可拆分",
+    "source": "拉丁语/希腊语",
+    "hasImage": true
+  },
+  {
+    "word": "email",
+    "chinese": "电子邮件",
+    "phonetic": "/ˈiːmeɪl/",
+    "category": "小学",
+    "etymology": "electronic+mail（现代合成词）",
+    "tip": "e-电子+mail邮件",
+    "source": "现代英语",
+    "hasImage": true
+  },
+  {
+    "word": "english",
+    "chinese": "英语",
+    "phonetic": "/ˈɪŋ.ɡlɪʃ/",
+    "category": "小学",
+    "etymology": "古英语 Englisc = Engle(盎格鲁人)+-isc(-ish)",
+    "tip": "Angle盎格鲁+-ish",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "evening",
+    "chinese": "晚上",
+    "phonetic": "/ˈivnɪŋ/",
+    "category": "小学",
+    "etymology": "古英语 æfnung = æfen(傍晚)+-ung",
+    "tip": "even傍晚+-ing",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "excited",
+    "chinese": "兴奋的",
+    "phonetic": "/ɪkˈsaɪtɪd/",
+    "category": "小学",
+    "etymology": "拉丁 excitare = ex-(出来)+citare(唤起)",
+    "tip": "ex-出 + cit-唤起",
+    "source": "拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "exercise",
+    "chinese": "锻炼",
+    "phonetic": "/ˈɛk.sə.saɪz/",
+    "category": "小学",
+    "etymology": "拉丁 exercitium = ex-(彻底)+arcere(约束)",
+    "tip": "ex-彻底 + erc-训练",
+    "source": "拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "eye",
+    "chinese": "眼睛",
+    "phonetic": "/aɪ/",
+    "category": "小学",
+    "etymology": "古英语 eage",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "face",
+    "chinese": "脸",
+    "phonetic": "/feɪs/",
+    "category": "小学",
+    "etymology": "古法语 face ← 拉丁 facies(面容/外表)",
+    "tip": "不可拆分",
+    "source": "古法语/拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "family",
+    "chinese": "家庭",
+    "phonetic": "/ˈfɛm(ɘ)li/",
+    "category": "小学",
+    "etymology": "拉丁 familia(家庭) ← famulus(仆人)",
+    "tip": "fam-家→家庭",
+    "source": "拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "famous",
+    "chinese": "著名的",
+    "phonetic": "/ˈfeɪməs/",
+    "category": "小学",
+    "etymology": "古法语 fameus ← 拉丁 famosus ← fama(名声)",
+    "tip": "fam-名声→著名的",
+    "source": "拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "fan",
+    "chinese": "风扇",
+    "phonetic": "/fæn/",
+    "category": "小学",
+    "etymology": "拉丁 vannus(簸箕/扇子) ← ventus(风)",
+    "tip": "不可拆分",
+    "source": "拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "farm",
+    "chinese": "农场",
+    "phonetic": "/fɑːɹm/",
+    "category": "小学",
+    "etymology": "古法语 ferme(租地)",
+    "tip": "不可拆分",
+    "source": "古法语",
+    "hasImage": true
+  },
+  {
+    "word": "farmer",
+    "chinese": "农民",
+    "phonetic": "/fɑːmə/",
+    "category": "小学",
+    "etymology": "farm+-er",
+    "tip": "farm+-er人",
+    "source": "英语派生",
+    "hasImage": true
+  },
+  {
+    "word": "fast",
+    "chinese": "快的",
+    "phonetic": "/fɑːst/",
+    "category": "小学",
+    "etymology": "古英语fæst，日耳曼语源",
+    "tip": "不可拆分",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "father",
+    "chinese": "父亲",
+    "phonetic": "/ˈfaːðə/",
+    "category": "小学",
+    "etymology": "古英语 fæder",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "favourite",
+    "chinese": "最喜欢的",
+    "phonetic": "/ˈfeɪv.ɹɪt/",
+    "category": "小学",
+    "etymology": "意大利 favorito ← 拉丁 favere(偏爱)",
+    "tip": "favor偏爱 + -ite被…的",
+    "source": "拉丁语/意大利语",
+    "hasImage": true
+  },
+  {
+    "word": "feel",
+    "chinese": "感觉",
+    "phonetic": "/fiːl/",
+    "category": "小学",
+    "etymology": "古英语 felan(触摸/感受)",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "film",
+    "chinese": "电影",
+    "phonetic": "/[ˈfɪlm̩]/",
+    "category": "小学",
+    "etymology": "古英语 filmen(薄膜)",
+    "tip": "不可拆分",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "find",
+    "chinese": "找到",
+    "phonetic": "/faɪnd/",
+    "category": "小学",
+    "etymology": "古英语 findan",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "fine",
+    "chinese": "好的",
+    "phonetic": "/fæːn/",
+    "category": "小学",
+    "etymology": "古法语 fin ← 拉丁 finis(终点/精炼的)",
+    "tip": "fin-终点→精良的",
+    "source": "拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "fire",
+    "chinese": "火",
+    "phonetic": "/ˈfɑeə(ɹ)/",
+    "category": "小学",
+    "etymology": "古英语 fyr",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "fish",
+    "chinese": "鱼",
+    "phonetic": "/fɪʃ/",
+    "category": "小学",
+    "etymology": "古英语 fisc",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "floor",
+    "chinese": "地板",
+    "phonetic": "/flɔː/",
+    "category": "小学",
+    "etymology": "古英语 flor",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "flower",
+    "chinese": "花",
+    "phonetic": "/ˈflaʊ.ə/",
+    "category": "小学",
+    "etymology": "古法语 flor ← 拉丁 flos(花)",
+    "tip": "flor-花",
+    "source": "古法语/拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "fly",
+    "chinese": "飞",
+    "phonetic": "/flaɪ/",
+    "category": "小学",
+    "etymology": "古英语 fleogan",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "food",
+    "chinese": "食物",
+    "phonetic": "/fuːd/",
+    "category": "小学",
+    "etymology": "古英语 foda",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "foot",
+    "chinese": "脚",
+    "phonetic": "/[fʊt̚]/",
+    "category": "小学",
+    "etymology": "古英语 fot",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "football",
+    "chinese": "足球",
+    "phonetic": "/[fʷʊʔt̚bɑɫ]/",
+    "category": "小学",
+    "etymology": "古英语 fot(脚) + 古Norse bollr(球)",
+    "tip": "foot脚 + ball球",
+    "source": "古英语+古诺斯语",
+    "hasImage": true
+  },
+  {
+    "word": "free",
+    "chinese": "自由的",
+    "phonetic": "/fɹiː/",
+    "category": "小学",
+    "etymology": "古英语 freo",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "friend",
+    "chinese": "朋友",
+    "phonetic": "/fɹɛnd/",
+    "category": "小学",
+    "etymology": "古英语 freond(爱着的人)",
+    "tip": "与free同源：自由的人→朋友",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "front",
+    "chinese": "前面",
+    "phonetic": "/fɹʌnt/",
+    "category": "小学",
+    "etymology": "古法语 front ← 拉丁 frons(前额)",
+    "tip": "不可拆分",
+    "source": "古法语/拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "fruit",
+    "chinese": "水果",
+    "phonetic": "/fɹuːt/",
+    "category": "小学",
+    "etymology": "古法语 fruit ← 拉丁 fructus(果实/享受)",
+    "tip": "fruct-果实",
+    "source": "古法语/拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "game",
+    "chinese": "游戏",
+    "phonetic": "/ɡeɪm/",
+    "category": "小学",
+    "etymology": "古英语 gamen(游戏/娱乐)",
+    "tip": "不可拆分",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "garden",
+    "chinese": "花园",
+    "phonetic": "/ˈɡɑːdn̩/",
+    "category": "小学",
+    "etymology": "古北部法语 gardin，来自日耳曼语(围栏)",
+    "tip": "gard-围→花园，与yard同源",
+    "source": "古法语/日耳曼语",
+    "hasImage": true
+  },
+  {
+    "word": "get",
+    "chinese": "得到",
+    "phonetic": "/ɡɛt/",
+    "category": "小学",
+    "etymology": "古Norse geta(获得)",
+    "tip": "日耳曼语核心动词",
+    "source": "古诺斯语",
+    "hasImage": true
+  },
+  {
+    "word": "gift",
+    "chinese": "礼物",
+    "phonetic": "/ɡɪft/",
+    "category": "小学",
+    "etymology": "古Norse gift(礼物)",
+    "tip": "与give同源：给出去的东西",
+    "source": "古诺斯语",
+    "hasImage": true
+  },
+  {
+    "word": "girl",
+    "chinese": "女孩",
+    "phonetic": "/ɡɵːl/",
+    "category": "小学",
+    "etymology": "中古英语 gurle，来源不确定",
+    "tip": "不可拆分",
+    "source": "中古英语",
+    "hasImage": true
+  },
+  {
+    "word": "give",
+    "chinese": "给",
+    "phonetic": "/ɡɪv/",
+    "category": "小学",
+    "etymology": "古英语 giefan",
+    "tip": "日耳曼语核心动词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "glass",
+    "chinese": "玻璃",
+    "phonetic": "/ɡlɑːs/",
+    "category": "小学",
+    "etymology": "古英语 glæs",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "go",
+    "chinese": "去",
+    "phonetic": "/ɡəʉ/",
+    "category": "小学",
+    "etymology": "古英语 gan",
+    "tip": "日耳曼语核心动词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "good",
+    "chinese": "好的",
+    "phonetic": "/ɡʊ(d)/",
+    "category": "小学",
+    "etymology": "古英语 god",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "grandfather",
+    "chinese": "祖父",
+    "phonetic": "/ˈɡɹæn(d)ˌfɑːðə(r)/",
+    "category": "小学",
+    "etymology": "古法语 grand(大) + 古英语 fæder(父)",
+    "tip": "grand大 + father父",
+    "source": "法语+古英语",
+    "hasImage": true
+  },
+  {
+    "word": "grandmother",
+    "chinese": "祖母",
+    "phonetic": "/ˈɡɹæn(d)ˌmʌðə(r)/",
+    "category": "小学",
+    "etymology": "古法语 grand(大) + 古英语 modor(母)",
+    "tip": "grand大 + mother母",
+    "source": "法语+古英语",
+    "hasImage": true
+  },
+  {
+    "word": "grape",
+    "chinese": "葡萄",
+    "phonetic": "/ɡɹeɪp/",
+    "category": "小学",
+    "etymology": "古法语 grape(葡萄串)，来自日耳曼语(钩子)",
+    "tip": "不可拆分",
+    "source": "古法语",
+    "hasImage": true
+  },
+  {
+    "word": "grass",
+    "chinese": "草",
+    "phonetic": "/[ɡɹ̠äːs]/",
+    "category": "小学",
+    "etymology": "古英语 græs",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "great",
+    "chinese": "伟大的",
+    "phonetic": "/ɡɹeɪt/",
+    "category": "小学",
+    "etymology": "古英语 great(大/粗)",
+    "tip": "不可拆分",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "green",
+    "chinese": "绿色",
+    "phonetic": "/ɡɹiːn/",
+    "category": "小学",
+    "etymology": "古英语 grene",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "hair",
+    "chinese": "头发",
+    "phonetic": "/heː/",
+    "category": "小学",
+    "etymology": "古英语 hær",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "half",
+    "chinese": "一半",
+    "phonetic": "/hɑːf/",
+    "category": "小学",
+    "etymology": "古英语 healf",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "hand",
+    "chinese": "手",
+    "phonetic": "/hænd/",
+    "category": "小学",
+    "etymology": "古英语 hand",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "happy",
+    "chinese": "快乐的",
+    "phonetic": "/ˈhæpiː/",
+    "category": "小学",
+    "etymology": "中古英语 hap(运气)+-y",
+    "tip": "hap运气→幸运的→快乐的",
+    "source": "古诺斯语",
+    "hasImage": true
+  },
+  {
+    "word": "hard",
+    "chinese": "困难的",
+    "phonetic": "/hɑːd/",
+    "category": "小学",
+    "etymology": "古英语 heard",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "hat",
+    "chinese": "帽子",
+    "phonetic": "/[hat]/",
+    "category": "小学",
+    "etymology": "古英语 hæt",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "head",
+    "chinese": "头",
+    "phonetic": "/hɛd/",
+    "category": "小学",
+    "etymology": "古英语 heafod",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "healthy",
+    "chinese": "健康的",
+    "phonetic": "/ˈhɛl.θi/",
+    "category": "小学",
+    "etymology": "古英语 hælþ(健康)+-y",
+    "tip": "health健康+-y",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "hear",
+    "chinese": "听见",
+    "phonetic": "/hɪə(ɹ)/",
+    "category": "小学",
+    "etymology": "古英语 hieran",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "heavy",
+    "chinese": "重的",
+    "phonetic": "/ˈhe.vi/",
+    "category": "小学",
+    "etymology": "古英语 hefig",
+    "tip": "heave(举起)+-y→用力举→重",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "help",
+    "chinese": "帮助",
+    "phonetic": "/hɛlp/",
+    "category": "小学",
+    "etymology": "古英语 helpan",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "helpful",
+    "chinese": "有帮助的",
+    "phonetic": "/ˈhɛlp.fəl/",
+    "category": "小学",
+    "etymology": "help+-ful(充满)",
+    "tip": "help帮助+-ful",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "hen",
+    "chinese": "母鸡",
+    "phonetic": "/hɛn/",
+    "category": "小学",
+    "etymology": "古英语 henn(母鸡)",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "high",
+    "chinese": "高的",
+    "phonetic": "/haɪ/",
+    "category": "小学",
+    "etymology": "古英语 heah",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "hill",
+    "chinese": "小山",
+    "phonetic": "/hɪl/",
+    "category": "小学",
+    "etymology": "古英语 hyll",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "holiday",
+    "chinese": "假期",
+    "phonetic": "/ˈhɒlɪdeɪ/",
+    "category": "小学",
+    "etymology": "古英语 haligdæg = halig(神圣)+dæg(日)",
+    "tip": "holi-圣+day日→圣日→假期",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "home",
+    "chinese": "家",
+    "phonetic": "/(h)əʊm/",
+    "category": "小学",
+    "etymology": "古英语 ham(家/村庄)",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "hometown",
+    "chinese": "家乡",
+    "phonetic": "/ˈhoʊmtaʊn/",
+    "category": "小学",
+    "etymology": "古英语 ham(家) + tun(镇)",
+    "tip": "home家 + town镇",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "horse",
+    "chinese": "马",
+    "phonetic": "/hɔːs/",
+    "category": "小学",
+    "etymology": "古英语 hors",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "hospital",
+    "chinese": "医院",
+    "phonetic": "/ˈhɒs.pɪ.tl̩/",
+    "category": "小学",
+    "etymology": "古法语 hospital ← 拉丁 hospitale(客栈)",
+    "tip": "hosp-客人→医院",
+    "source": "拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "hot",
+    "chinese": "热的",
+    "phonetic": "/hɒt/",
+    "category": "小学",
+    "etymology": "古英语 hat",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "hour",
+    "chinese": "小时",
+    "phonetic": "/ˈaʊɚ/",
+    "category": "小学",
+    "etymology": "古法语 hore ← 拉丁 hora ← 希腊 hora(季节/时间)",
+    "tip": "不可拆分",
+    "source": "拉丁语/希腊语",
+    "hasImage": true
+  },
+  {
+    "word": "house",
+    "chinese": "房子",
+    "phonetic": "/hʌʊs/",
+    "category": "小学",
+    "etymology": "古英语 hus",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "hungry",
+    "chinese": "饿的",
+    "phonetic": "/ˈhʌŋ.ɡɹi/",
+    "category": "小学",
+    "etymology": "古英语 hungor(饥饿)+-y",
+    "tip": "hunger饥饿+-y",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "hurry",
+    "chinese": "赶快",
+    "phonetic": "/ˈhʌ.ɹi/",
+    "category": "小学",
+    "etymology": "可能来自拟声词或中古英语 hurren",
+    "tip": "不可拆分",
+    "source": "拟声词",
+    "hasImage": true
+  },
+  {
+    "word": "hurt",
+    "chinese": "受伤",
+    "phonetic": "/hɜːt/",
+    "category": "小学",
+    "etymology": "古法语 hurter(撞击)，来源不确定",
+    "tip": "不可拆分",
+    "source": "古法语",
+    "hasImage": true
+  },
+  {
+    "word": "ice",
+    "chinese": "冰",
+    "phonetic": "/[ʌɪs]/",
+    "category": "小学",
+    "etymology": "古英语 is",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "idea",
+    "chinese": "主意",
+    "phonetic": "/ɑeˈdiə̯/",
+    "category": "小学",
+    "etymology": "拉丁 idea ← 希腊 idea(形式/模式) ← idein(看)",
+    "tip": "ide-看→想法",
+    "source": "希腊语",
+    "hasImage": true
+  },
+  {
+    "word": "ill",
+    "chinese": "生病的",
+    "phonetic": "/ɪl/",
+    "category": "小学",
+    "etymology": "古Norse illr(坏的/病的)",
+    "tip": "不可拆分",
+    "source": "古诺斯语",
+    "hasImage": true
+  },
+  {
+    "word": "interesting",
+    "chinese": "有趣的",
+    "phonetic": "/ˈɪnt(ə)ɹɛstɪŋ/",
+    "category": "小学",
+    "etymology": "拉丁 interesse = inter-(之间)+esse(存在)",
+    "tip": "inter-之间 + est-存在→介入其中",
+    "source": "拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "internet",
+    "chinese": "互联网",
+    "phonetic": "/ˈɪntəˌnɛt/",
+    "category": "小学",
+    "etymology": "inter-(之间) + network(网络)",
+    "tip": "inter-之间 + net网",
+    "source": "拉丁+古英语",
+    "hasImage": true
+  },
+  {
+    "word": "job",
+    "chinese": "工作",
+    "phonetic": "/d͡ʒɒb/",
+    "category": "小学",
+    "etymology": "中古英语 jobbe(一块工作)",
+    "tip": "不可拆分",
+    "source": "中古英语",
+    "hasImage": true
+  },
+  {
+    "word": "juice",
+    "chinese": "果汁",
+    "phonetic": "/d͡ʒuːs/",
+    "category": "小学",
+    "etymology": "古法语 jus ← 拉丁 ius(汤汁)",
+    "tip": "不可拆分",
+    "source": "古法语/拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "jump",
+    "chinese": "跳",
+    "phonetic": "/dʒʌmp/",
+    "category": "小学",
+    "etymology": "拟声词，模拟跳跃的声音",
+    "tip": "不可拆分",
+    "source": "拟声词",
+    "hasImage": true
+  },
+  {
+    "word": "keep",
+    "chinese": "保持",
+    "phonetic": "/kiːp/",
+    "category": "小学",
+    "etymology": "古英语 cepan(抓住/保持)",
+    "tip": "不可拆分",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "kid",
+    "chinese": "小孩",
+    "phonetic": "/kɪd/",
+    "category": "小学",
+    "etymology": "古Norse kið(小山羊→小孩)",
+    "tip": "不可拆分",
+    "source": "古诺斯语",
+    "hasImage": true
+  },
+  {
+    "word": "kind",
+    "chinese": "友好的",
+    "phonetic": "/kaɪnd/",
+    "category": "小学",
+    "etymology": "古英语 cynd(种类/天性)",
+    "tip": "不可拆分",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "kitchen",
+    "chinese": "厨房",
+    "phonetic": "/ˈkɪt͡ʃən/",
+    "category": "小学",
+    "etymology": "古英语 cycene ← 拉丁 coquina ← coquere(烹饪)",
+    "tip": "与cook同源",
+    "source": "拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "kite",
+    "chinese": "风筝",
+    "phonetic": "/kaɪt/",
+    "category": "小学",
+    "etymology": "古英语 cyta(鸢/风筝)",
+    "tip": "不可拆分",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "know",
+    "chinese": "知道",
+    "phonetic": "/nəʊ/",
+    "category": "小学",
+    "etymology": "古英语 cnawan",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "lake",
+    "chinese": "湖",
+    "phonetic": "/leɪk/",
+    "category": "小学",
+    "etymology": "古法语 lac ← 拉丁 lacus(湖/池塘)",
+    "tip": "不可拆分",
+    "source": "古法语/拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "last",
+    "chinese": "最后的",
+    "phonetic": "/last/",
+    "category": "小学",
+    "etymology": "古英语 latest(最晚的)",
+    "tip": "late的最高级",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "late",
+    "chinese": "迟的",
+    "phonetic": "/leɪt/",
+    "category": "小学",
+    "etymology": "古英语 læt(慢的/晚的)",
+    "tip": "不可拆分",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "learn",
+    "chinese": "学习",
+    "phonetic": "/lɜːn/",
+    "category": "小学",
+    "etymology": "古英语 leornian",
+    "tip": "不可拆分",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "leg",
+    "chinese": "腿",
+    "phonetic": "/leɪɡ/",
+    "category": "小学",
+    "etymology": "古Norse leggr(腿)",
+    "tip": "不可拆分",
+    "source": "古诺斯语",
+    "hasImage": true
+  },
+  {
+    "word": "lesson",
+    "chinese": "课",
+    "phonetic": "/ˈlɛsn̩/",
+    "category": "小学",
+    "etymology": "古法语 lecon ← 拉丁 lectionem(朗读) ← legere(读)",
+    "tip": "lect-读→课程",
+    "source": "古法语/拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "let",
+    "chinese": "让",
+    "phonetic": "/lɛt/",
+    "category": "小学",
+    "etymology": "古英语 lætan(允许/让)",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "letter",
+    "chinese": "信",
+    "phonetic": "/-ɾə(ɹ)/",
+    "category": "小学",
+    "etymology": "古法语 lettre ← 拉丁 littera(字母)",
+    "tip": "不可拆分",
+    "source": "古法语/拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "library",
+    "chinese": "图书馆",
+    "phonetic": "/ˈlaɪbɹi/",
+    "category": "小学",
+    "etymology": "拉丁 librarium(书柜) ← liber(书/树皮)",
+    "tip": "libr-书→图书馆",
+    "source": "拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "light",
+    "chinese": "光",
+    "phonetic": "/lʌɪt/",
+    "category": "小学",
+    "etymology": "古英语 leoht",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "like",
+    "chinese": "喜欢",
+    "phonetic": "/laɪk/",
+    "category": "小学",
+    "etymology": "古英语 lician(喜欢)",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "lion",
+    "chinese": "狮子",
+    "phonetic": "/ˈlaɪən/",
+    "category": "小学",
+    "etymology": "古法语 lion ← 拉丁 leo ← 希腊 leon",
+    "tip": "不可拆分",
+    "source": "拉丁语/希腊语",
+    "hasImage": true
+  },
+  {
+    "word": "listen",
+    "chinese": "听",
+    "phonetic": "/ˈlɪs.ən/",
+    "category": "小学",
+    "etymology": "古英语 hlysnan(听)",
+    "tip": "不可拆分",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "little",
+    "chinese": "小的",
+    "phonetic": "/ˈlɪ.ɾɫ̩/",
+    "category": "小学",
+    "etymology": "古英语 lytel",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "live",
+    "chinese": "居住",
+    "phonetic": "/lɪv/",
+    "category": "小学",
+    "etymology": "古英语 libban",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "long",
+    "chinese": "长的",
+    "phonetic": "/ˈlɔːŋ/",
+    "category": "小学",
+    "etymology": "古英语 lang",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "look",
+    "chinese": "看",
+    "phonetic": "/lʊk/",
+    "category": "小学",
+    "etymology": "古英语 locian",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "lot",
+    "chinese": "许多",
+    "phonetic": "/lɒt/",
+    "category": "小学",
+    "etymology": "古英语 hlot(抽签/一份)",
+    "tip": "不可拆分",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "love",
+    "chinese": "爱",
+    "phonetic": "/lʊv/",
+    "category": "小学",
+    "etymology": "古英语 lufu",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "lovely",
+    "chinese": "可爱的",
+    "phonetic": "/ˈlʌvli/",
+    "category": "小学",
+    "etymology": "love+-ly(像…的)",
+    "tip": "love+-ly",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "lunch",
+    "chinese": "午餐",
+    "phonetic": "/lʌnt͡ʃ/",
+    "category": "小学",
+    "etymology": "中古英语 lunchen，来源不确定",
+    "tip": "不可拆分",
+    "source": "中古英语",
+    "hasImage": true
+  },
+  {
+    "word": "make",
+    "chinese": "制作",
+    "phonetic": "/meɪk/",
+    "category": "小学",
+    "etymology": "古英语 macian",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "man",
+    "chinese": "男人",
+    "phonetic": "/[mɛn]/",
+    "category": "小学",
+    "etymology": "古英语 mann",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "map",
+    "chinese": "地图",
+    "phonetic": "/mæp/",
+    "category": "小学",
+    "etymology": "中世纪拉丁 mappa(布) ← mappa mundi(世界之布)",
+    "tip": "原意为\"布→地图\"",
+    "source": "拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "maths",
+    "chinese": "数学",
+    "phonetic": "/mæθs/",
+    "category": "小学",
+    "etymology": "希腊 mathematike ← mathema(知识) ← manthanein(学习)",
+    "tip": "math-学习→数学",
+    "source": "希腊语",
+    "hasImage": true
+  },
+  {
+    "word": "meat",
+    "chinese": "肉",
+    "phonetic": "/miːt/",
+    "category": "小学",
+    "etymology": "古英语 mete(食物→肉)",
+    "tip": "不可拆分",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "meet",
+    "chinese": "遇见",
+    "phonetic": "/miːt/",
+    "category": "小学",
+    "etymology": "古英语 metan(遇见)",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "middle",
+    "chinese": "中间的",
+    "phonetic": "/ˈmɪdəl/",
+    "category": "小学",
+    "etymology": "古英语 middel",
+    "tip": "mid+-el→中间",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "milk",
+    "chinese": "牛奶",
+    "phonetic": "/[mɛlk]/",
+    "category": "小学",
+    "etymology": "古英语 meolc",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "minute",
+    "chinese": "分钟",
+    "phonetic": "/ˈmɪnɪt/",
+    "category": "小学",
+    "etymology": "拉丁 minuta(小的) ← minuere(减少)",
+    "tip": "min-小→分钟",
+    "source": "拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "miss",
+    "chinese": "想念",
+    "phonetic": "/mɪs/",
+    "category": "小学",
+    "etymology": "古英语 missan(未击中→想念)",
+    "tip": "不可拆分",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "money",
+    "chinese": "钱",
+    "phonetic": "/ˈmʌni/",
+    "category": "小学",
+    "etymology": "古法语 moneie ← 拉丁 moneta(钱币)",
+    "tip": "来自罗马女神Juno Moneta",
+    "source": "拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "monkey",
+    "chinese": "猴子",
+    "phonetic": "/ˈmʌŋki/",
+    "category": "小学",
+    "etymology": "来源不确定，可能来自低地德语",
+    "tip": "不可拆分",
+    "source": "低地德语",
+    "hasImage": true
+  },
+  {
+    "word": "month",
+    "chinese": "月份",
+    "phonetic": "/mʌnθ/",
+    "category": "小学",
+    "etymology": "古英语 monað(与moon同源)",
+    "tip": "moon+-th→月",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "moon",
+    "chinese": "月亮",
+    "phonetic": "/muːn/",
+    "category": "小学",
+    "etymology": "古英语 mona",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "morning",
+    "chinese": "早晨",
+    "phonetic": "/ˈmɔːnɪŋ/",
+    "category": "小学",
+    "etymology": "古英语 morgen(早晨)+-ing",
+    "tip": "morn早晨+-ing",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "mother",
+    "chinese": "母亲",
+    "phonetic": "/ˈmʌðə(ɹ)/",
+    "category": "小学",
+    "etymology": "古英语 modor",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "mouse",
+    "chinese": "老鼠",
+    "phonetic": "/maʊs/",
+    "category": "小学",
+    "etymology": "古英语 mus",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "mouth",
+    "chinese": "嘴",
+    "phonetic": "/mʌʊθ/",
+    "category": "小学",
+    "etymology": "古英语 muð",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "mr",
+    "chinese": "先生",
+    "phonetic": "/ˈmɪstər/",
+    "category": "小学",
+    "etymology": "master的缩写 ← 古法语 maistre",
+    "tip": "master的缩写",
+    "source": "古法语",
+    "hasImage": true
+  },
+  {
+    "word": "mrs",
+    "chinese": "夫人",
+    "phonetic": "/ˈmɪsɪz/",
+    "category": "小学",
+    "etymology": "mistress的缩写 ← 古法语 maistresse",
+    "tip": "mistress的缩写",
+    "source": "古法语",
+    "hasImage": true
+  },
+  {
+    "word": "ms",
+    "chinese": "女士",
+    "phonetic": "/mɪz/",
+    "category": "小学",
+    "etymology": "Miss/Mrs的合并缩写",
+    "tip": "现代缩写",
+    "source": "英语",
+    "hasImage": true
+  },
+  {
+    "word": "music",
+    "chinese": "音乐",
+    "phonetic": "/ˈmjuːzɪk/",
+    "category": "小学",
+    "etymology": "希腊 mousike ← Mousa(缪斯女神)",
+    "tip": "mus-缪斯→音乐",
+    "source": "希腊语",
+    "hasImage": true
+  },
+  {
+    "word": "name",
+    "chinese": "名字",
+    "phonetic": "/neɪm/",
+    "category": "小学",
+    "etymology": "古英语 nama",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "near",
+    "chinese": "近的",
+    "phonetic": "/nɪə(ɹ)/",
+    "category": "小学",
+    "etymology": "古英语 near(更近的)",
+    "tip": "nigh的比较级",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "neck",
+    "chinese": "脖子",
+    "phonetic": "/nɛk/",
+    "category": "小学",
+    "etymology": "古英语 hnecca",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "new",
+    "chinese": "新的",
+    "phonetic": "/njʉː/",
+    "category": "小学",
+    "etymology": "古英语 neowe",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "next",
+    "chinese": "下一个",
+    "phonetic": "/nɛkst/",
+    "category": "小学",
+    "etymology": "古英语 niehst(最近的)",
+    "tip": "nigh的最高级",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "nice",
+    "chinese": "美好的",
+    "phonetic": "/naɪs/",
+    "category": "小学",
+    "etymology": "古法语 nice(傻) ← 拉丁 nescius(无知的)",
+    "tip": "nesc-不知→傻→精致→好(语义漂移)",
+    "source": "古法语/拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "night",
+    "chinese": "晚上",
+    "phonetic": "/naɪt/",
+    "category": "小学",
+    "etymology": "古英语 niht",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "noodle",
+    "chinese": "面条",
+    "phonetic": "/nuːdl̩/",
+    "category": "小学",
+    "etymology": "德语 Nudel(面条)",
+    "tip": "借词，不可拆分",
+    "source": "德语",
+    "hasImage": true
+  },
+  {
+    "word": "nose",
+    "chinese": "鼻子",
+    "phonetic": "/nəʊz/",
+    "category": "小学",
+    "etymology": "古英语 nosu",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "number",
+    "chinese": "数字",
+    "phonetic": "/ˈnʌmbə/",
+    "category": "小学",
+    "etymology": "古法语 nombre ← 拉丁 numerus",
+    "tip": "不可拆分",
+    "source": "古法语/拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "nurse",
+    "chinese": "护士",
+    "phonetic": "/nɜːs/",
+    "category": "小学",
+    "etymology": "拉丁 nutricia ← nutrire(哺乳/滋养)",
+    "tip": "nutr-滋养→护士",
+    "source": "拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "old",
+    "chinese": "老的",
+    "phonetic": "/ˈɒʊld/",
+    "category": "小学",
+    "etymology": "古英语 eald",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "open",
+    "chinese": "打开",
+    "phonetic": "/ˈəʊ.pən/",
+    "category": "小学",
+    "etymology": "古英语 open",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "orange",
+    "chinese": "橙子",
+    "phonetic": "/ˈɔɹɪ̈nd͡ʒ/",
+    "category": "小学",
+    "etymology": "古法语 orenge ← 阿拉伯 naranj ← 梵语 narangah",
+    "tip": "借词，不可拆分",
+    "source": "阿拉伯语/波斯语",
+    "hasImage": true
+  },
+  {
+    "word": "pair",
+    "chinese": "一双",
+    "phonetic": "/pɛə(ɹ)/",
+    "category": "小学",
+    "etymology": "古法语 paire ← 拉丁 paria(相等物) ← par(相等)",
+    "tip": "不可拆分",
+    "source": "古法语/拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "panda",
+    "chinese": "熊猫",
+    "phonetic": "/ˈpændə/",
+    "category": "小学",
+    "etymology": "尼泊尔语 ponya(竹食动物)",
+    "tip": "借词，不可拆分",
+    "source": "尼泊尔语",
+    "hasImage": true
+  },
+  {
+    "word": "paper",
+    "chinese": "纸",
+    "phonetic": "/ˈpeɪpə/",
+    "category": "小学",
+    "etymology": "古法语 papier ← 拉丁 papyrus ← 希腊 papyros",
+    "tip": "不可拆分",
+    "source": "拉丁语/希腊语",
+    "hasImage": true
+  },
+  {
+    "word": "park",
+    "chinese": "公园",
+    "phonetic": "/[paːk]/",
+    "category": "小学",
+    "etymology": "古英语 pearroc ← 晚期拉丁 parricus(围场)",
+    "tip": "不可拆分",
+    "source": "拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "party",
+    "chinese": "聚会",
+    "phonetic": "/ˈpɑ(ː)ɾi/",
+    "category": "小学",
+    "etymology": "古法语 partie ← 拉丁 partita(分开) ← pars(部分)",
+    "tip": "part-部分→一组人→聚会",
+    "source": "古法语/拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "pear",
+    "chinese": "梨",
+    "phonetic": "/pɛr/",
+    "category": "小学",
+    "etymology": "古英语 pere ← 通俗拉丁 pira",
+    "tip": "借词，不可拆分",
+    "source": "拉丁语借词",
+    "hasImage": true
+  },
+  {
+    "word": "pen",
+    "chinese": "钢笔",
+    "phonetic": "/pɛn/",
+    "category": "小学",
+    "etymology": "古法语 penne ← 拉丁 penna(羽毛→羽毛笔)",
+    "tip": "与feather同概念",
+    "source": "拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "pencil",
+    "chinese": "铅笔",
+    "phonetic": "/ˈpɛnsɪl/",
+    "category": "小学",
+    "etymology": "古法语 pincel ← 拉丁 penicillus(小尾巴/小刷子)",
+    "tip": "peni-小尾巴→画笔→铅笔",
+    "source": "拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "people",
+    "chinese": "人们",
+    "phonetic": "/ˈpiːpəl/",
+    "category": "小学",
+    "etymology": "古法语 pueple ← 拉丁 populus(人民)",
+    "tip": "不可拆分",
+    "source": "古法语/拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "pet",
+    "chinese": "宠物",
+    "phonetic": "/pɛt/",
+    "category": "小学",
+    "etymology": "可能来自苏格兰盖尔语 peata(驯养的动物)",
+    "tip": "不可拆分",
+    "source": "苏格兰盖尔语",
+    "hasImage": true
+  },
+  {
+    "word": "phone",
+    "chinese": "电话",
+    "phonetic": "/fəʊ̯n/",
+    "category": "小学",
+    "etymology": "希腊 phone(声音)，telephone的缩写",
+    "tip": "phon-声音→电话",
+    "source": "希腊语",
+    "hasImage": true
+  },
+  {
+    "word": "photo",
+    "chinese": "照片",
+    "phonetic": "/ˈfəʊ.təʊ/",
+    "category": "小学",
+    "etymology": "希腊 phos(光)，photograph的缩写",
+    "tip": "phot-光→照片",
+    "source": "希腊语",
+    "hasImage": true
+  },
+  {
+    "word": "piano",
+    "chinese": "钢琴",
+    "phonetic": "/piˈænoʊ/",
+    "category": "小学",
+    "etymology": "意大利 pianoforte = piano(轻柔)+forte(响亮)",
+    "tip": "piano-轻柔→钢琴(可轻可响)",
+    "source": "意大利语",
+    "hasImage": true
+  },
+  {
+    "word": "picture",
+    "chinese": "图片",
+    "phonetic": "/ˈpɪktʃə/",
+    "category": "小学",
+    "etymology": "古法语 picture ← 拉丁 pictura ← pingere(画)",
+    "tip": "pict-画→图画",
+    "source": "拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "pig",
+    "chinese": "猪",
+    "phonetic": "/ˈpɪɡ/",
+    "category": "小学",
+    "etymology": "古英语 picga，来源不明",
+    "tip": "不可拆分",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "ping-pong",
+    "chinese": "乒乓球",
+    "phonetic": "/ˈpɪŋpɔːŋ/",
+    "category": "小学",
+    "etymology": "拟声词，模仿乒乓球声音",
+    "tip": "拟声词",
+    "source": "拟声词",
+    "hasImage": true
+  },
+  {
+    "word": "pink",
+    "chinese": "粉色",
+    "phonetic": "/pɪŋk/",
+    "category": "小学",
+    "etymology": "可能来自荷兰语 pinck(小/粉红色)",
+    "tip": "不可拆分",
+    "source": "荷兰语",
+    "hasImage": true
+  },
+  {
+    "word": "place",
+    "chinese": "地方",
+    "phonetic": "/pleɪs/",
+    "category": "小学",
+    "etymology": "古法语 place ← 拉丁 platea(宽阔的街道)",
+    "tip": "不可拆分",
+    "source": "古法语/拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "plan",
+    "chinese": "计划",
+    "phonetic": "/plæn/",
+    "category": "小学",
+    "etymology": "法语 plan ← 拉丁 planum(平面)",
+    "tip": "不可拆分",
+    "source": "拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "plane",
+    "chinese": "飞机",
+    "phonetic": "/pleɪn/",
+    "category": "小学",
+    "etymology": "拉丁 planum(平面)→法语 plan→plane，airplane的缩写",
+    "tip": "plain/plan-平面→飞机",
+    "source": "拉丁语/法语",
+    "hasImage": true
+  },
+  {
+    "word": "plant",
+    "chinese": "植物",
+    "phonetic": "/plænt/",
+    "category": "小学",
+    "etymology": "古法语 plante ← 拉丁 planta(幼苗/嫩枝)",
+    "tip": "不可拆分",
+    "source": "拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "play",
+    "chinese": "玩",
+    "phonetic": "/pleɪ/",
+    "category": "小学",
+    "etymology": "古英语 plegian",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "pupil",
+    "chinese": "学生",
+    "phonetic": "/ˈpjuːpəl/",
+    "category": "小学",
+    "etymology": "古法语 pupille ← 拉丁 pupillus(孤儿/未成年人)",
+    "tip": "pup-小孩→学生",
+    "source": "拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "purple",
+    "chinese": "紫色",
+    "phonetic": "/ˈpɜː(ɹ).pəl/",
+    "category": "小学",
+    "etymology": "古英语 purpul ← 拉丁 purpura ← 希腊 porphyra(骨螺紫)",
+    "tip": "purp-紫",
+    "source": "拉丁语/希腊语",
+    "hasImage": true
+  },
+  {
+    "word": "put",
+    "chinese": "放",
+    "phonetic": "/pʊt/",
+    "category": "小学",
+    "etymology": "古英语 putian",
+    "tip": "不可拆分",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "question",
+    "chinese": "问题",
+    "phonetic": "/ˈkwɛstjən/",
+    "category": "小学",
+    "etymology": "古法语 question ← 拉丁 quaestionem ← quaerere(寻求)",
+    "tip": "quest-寻求→问题",
+    "source": "拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "quick",
+    "chinese": "快的",
+    "phonetic": "/kwɪk/",
+    "category": "小学",
+    "etymology": "古英语 cwic(活的/快的)",
+    "tip": "不可拆分",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "quiet",
+    "chinese": "安静的",
+    "phonetic": "/ˈkwaɪ.ət/",
+    "category": "小学",
+    "etymology": "古法语 quiete ← 拉丁 quietus(安静的/休息)",
+    "tip": "qui-安静",
+    "source": "拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "rabbit",
+    "chinese": "兔子",
+    "phonetic": "/ˈɹæbət/",
+    "category": "小学",
+    "etymology": "中古英语 rabet，来源不确定",
+    "tip": "不可拆分",
+    "source": "中古英语",
+    "hasImage": true
+  },
+  {
+    "word": "read",
+    "chinese": "阅读",
+    "phonetic": "/ɹiːd/",
+    "category": "小学",
+    "etymology": "古英语 rædan(解读/阅读)",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "red",
+    "chinese": "红色",
+    "phonetic": "/ɹɛd/",
+    "category": "小学",
+    "etymology": "古英语 read",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "rice",
+    "chinese": "米饭",
+    "phonetic": "/ɹaɪs/",
+    "category": "小学",
+    "etymology": "古法语 ris ← 意大利 riso ← 希腊 oryza",
+    "tip": "借词",
+    "source": "希腊语/拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "river",
+    "chinese": "河流",
+    "phonetic": "/ˈɹɪvə/",
+    "category": "小学",
+    "etymology": "古法语 riviere ← 拉丁 riparius(河岸的) ← ripa(岸)",
+    "tip": "riv-岸→河流",
+    "source": "古法语/拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "road",
+    "chinese": "路",
+    "phonetic": "/ɹəʊd/",
+    "category": "小学",
+    "etymology": "古英语 rad(骑马→路)",
+    "tip": "与ride同源：骑马的路",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "robot",
+    "chinese": "机器人",
+    "phonetic": "/ˈɹoʊbət/",
+    "category": "小学",
+    "etymology": "捷克语 robota(强迫劳动)，恰佩克1923年创造",
+    "tip": "与work同源(斯拉夫语)",
+    "source": "捷克语",
+    "hasImage": true
+  },
+  {
+    "word": "room",
+    "chinese": "房间",
+    "phonetic": "/ɹuːm/",
+    "category": "小学",
+    "etymology": "古英语 rum(空间)",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "ruler",
+    "chinese": "尺子",
+    "phonetic": "/ˈɹuːlə(ɹ)/",
+    "category": "小学",
+    "etymology": "古法语 reule(规则)+-er",
+    "tip": "rule规则+-er人/工具→尺子",
+    "source": "古法语",
+    "hasImage": true
+  },
+  {
+    "word": "run",
+    "chinese": "跑",
+    "phonetic": "/ɹʊn/",
+    "category": "小学",
+    "etymology": "古英语 rinnan",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "sad",
+    "chinese": "悲伤的",
+    "phonetic": "/sæd/",
+    "category": "小学",
+    "etymology": "古英语 sæd(满足的→悲伤的)",
+    "tip": "语义漂移",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "safe",
+    "chinese": "安全的",
+    "phonetic": "/seɪf/",
+    "category": "小学",
+    "etymology": "古法语 sauf ← 拉丁 salvus(健康的/安全的)",
+    "tip": "salv-安全",
+    "source": "古法语/拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "say",
+    "chinese": "说",
+    "phonetic": "/seɪ/",
+    "category": "小学",
+    "etymology": "古英语 secgan",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "school",
+    "chinese": "学校",
+    "phonetic": "/skuːl/",
+    "category": "小学",
+    "etymology": "古英语 scol ← 拉丁 schola ← 希腊 skhole(闲暇→学习)",
+    "tip": "schol-闲暇→学校",
+    "source": "希腊语/拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "science",
+    "chinese": "科学",
+    "phonetic": "/ˈsaɪəns/",
+    "category": "小学",
+    "etymology": "古法语 science ← 拉丁 scientia(知识) ← scire(知道)",
+    "tip": "sci-知道→科学",
+    "source": "拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "sea",
+    "chinese": "海",
+    "phonetic": "/siː/",
+    "category": "小学",
+    "etymology": "古英语 sæ",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "see",
+    "chinese": "看见",
+    "phonetic": "/siː/",
+    "category": "小学",
+    "etymology": "古英语 seon",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "sell",
+    "chinese": "卖",
+    "phonetic": "/sɛl/",
+    "category": "小学",
+    "etymology": "古英语 sellan(给予→卖)",
+    "tip": "不可拆分",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "share",
+    "chinese": "分享",
+    "phonetic": "/ʃɛə/",
+    "category": "小学",
+    "etymology": "古英语 scearu(一份/份额)",
+    "tip": "不可拆分",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "sheep",
+    "chinese": "羊",
+    "phonetic": "/ʃiːp/",
+    "category": "小学",
+    "etymology": "古英语 sceap",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "ship",
+    "chinese": "船",
+    "phonetic": "/ʃɪp/",
+    "category": "小学",
+    "etymology": "古英语 scip",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "shirt",
+    "chinese": "衬衫",
+    "phonetic": "/ʃɜːt/",
+    "category": "小学",
+    "etymology": "古英语 scyrte(短衣)",
+    "tip": "与short同源：短的衣服",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "shoe",
+    "chinese": "鞋",
+    "phonetic": "/ʃuː/",
+    "category": "小学",
+    "etymology": "古英语 scoh",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "shop",
+    "chinese": "商店",
+    "phonetic": "/ʃɒp/",
+    "category": "小学",
+    "etymology": "古英语 sceoppa(棚/摊位)",
+    "tip": "不可拆分",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "short",
+    "chinese": "短的",
+    "phonetic": "/ʃoːt/",
+    "category": "小学",
+    "etymology": "古英语 sceort",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "show",
+    "chinese": "展示",
+    "phonetic": "/ʃəʊ/",
+    "category": "小学",
+    "etymology": "古英语 sceawian(看→展示)",
+    "tip": "不可拆分",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "sick",
+    "chinese": "生病的",
+    "phonetic": "/sɪk/",
+    "category": "小学",
+    "etymology": "古英语 seoc",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "sing",
+    "chinese": "唱歌",
+    "phonetic": "/sɪŋ/",
+    "category": "小学",
+    "etymology": "古英语 singan",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "sister",
+    "chinese": "姐妹",
+    "phonetic": "/ˈsɪs.tə/",
+    "category": "小学",
+    "etymology": "古Norse systir",
+    "tip": "日耳曼语通用词",
+    "source": "古诺斯语",
+    "hasImage": true
+  },
+  {
+    "word": "sit",
+    "chinese": "坐",
+    "phonetic": "/sɪt/",
+    "category": "小学",
+    "etymology": "古英语 sittan",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "skirt",
+    "chinese": "裙子",
+    "phonetic": "/skɜːt/",
+    "category": "小学",
+    "etymology": "古Norse skyrta(衬衫→裙子)",
+    "tip": "与shirt同源(古诺斯语变体)",
+    "source": "古诺斯语",
+    "hasImage": true
+  },
+  {
+    "word": "sky",
+    "chinese": "天空",
+    "phonetic": "/skaɪ/",
+    "category": "小学",
+    "etymology": "古Norse sky(云→天空)",
+    "tip": "不可拆分",
+    "source": "古诺斯语",
+    "hasImage": true
+  },
+  {
+    "word": "sleep",
+    "chinese": "睡觉",
+    "phonetic": "/sliːp/",
+    "category": "小学",
+    "etymology": "古英语 slæpan",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "slow",
+    "chinese": "慢的",
+    "phonetic": "/sləʊ/",
+    "category": "小学",
+    "etymology": "古英语 slaw",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "small",
+    "chinese": "小的",
+    "phonetic": "/smoːl/",
+    "category": "小学",
+    "etymology": "古英语 smæl",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "son",
+    "chinese": "儿子",
+    "phonetic": "/sɒn/",
+    "category": "小学",
+    "etymology": "古英语 sunu",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "song",
+    "chinese": "歌曲",
+    "phonetic": "/sɒŋ/",
+    "category": "小学",
+    "etymology": "古英语 sang",
+    "tip": "与sing同源",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "sorry",
+    "chinese": "对不起",
+    "phonetic": "/ˈsɔɹi/",
+    "category": "小学",
+    "etymology": "古英语sarig（sar疼痛+-ig形容词后缀）",
+    "tip": "不可拆分",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "space",
+    "chinese": "太空",
+    "phonetic": "/speɪs/",
+    "category": "小学",
+    "etymology": "古法语 espace ← 拉丁 spatium(空间)",
+    "tip": "不可拆分",
+    "source": "古法语/拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "speak",
+    "chinese": "说话",
+    "phonetic": "/spiːk/",
+    "category": "小学",
+    "etymology": "古英语 specan",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "spring",
+    "chinese": "春天",
+    "phonetic": "/spɹɪŋ/",
+    "category": "小学",
+    "etymology": "古英语 springan(跳/涌出)",
+    "tip": "不可拆分",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "stand",
+    "chinese": "站立",
+    "phonetic": "/stænd/",
+    "category": "小学",
+    "etymology": "古英语 standan",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "star",
+    "chinese": "星",
+    "phonetic": "/stɑː(ɹ)/",
+    "category": "小学",
+    "etymology": "古英语 steorra",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "stop",
+    "chinese": "停止",
+    "phonetic": "/stɒp/",
+    "category": "小学",
+    "etymology": "古英语 stoppian(堵塞→停止)",
+    "tip": "不可拆分",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "story",
+    "chinese": "故事",
+    "phonetic": "/ˈstɔː.ɹi/",
+    "category": "小学",
+    "etymology": "古法语 estorie ← 拉丁 historia(历史/故事)",
+    "tip": "与history同源",
+    "source": "古法语/拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "street",
+    "chinese": "街道",
+    "phonetic": "/stɹiːt/",
+    "category": "小学",
+    "etymology": "古英语 stræt ← 拉丁 strata(via strata铺好的路)",
+    "tip": "罗马时代借词",
+    "source": "拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "strong",
+    "chinese": "强壮的",
+    "phonetic": "/stɹɑŋ/",
+    "category": "小学",
+    "etymology": "古英语 strang",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "student",
+    "chinese": "学生",
+    "phonetic": "/ˈstjuː.dənt/",
+    "category": "小学",
+    "etymology": "古法语 estudiant ← 拉丁 studens ← studere(热心地)",
+    "tip": "stud-热心→学习→学生",
+    "source": "拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "study",
+    "chinese": "学习",
+    "phonetic": "/ˈstʌdi/",
+    "category": "小学",
+    "etymology": "古法语 estudie ← 拉丁 studium(热情/勤奋)",
+    "tip": "stud-热心→学习",
+    "source": "拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "subject",
+    "chinese": "科目",
+    "phonetic": "/ˈsʌb.dʒɪkt/",
+    "category": "小学",
+    "etymology": "古法语 sujet ← 拉丁 subjectus = sub-+jacere",
+    "tip": "sub-下+ject-投→置于其下→科目",
+    "source": "拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "summer",
+    "chinese": "夏天",
+    "phonetic": "/ˈsʌmə(ɹ)/",
+    "category": "小学",
+    "etymology": "古英语 sumor",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "sun",
+    "chinese": "太阳",
+    "phonetic": "/sʌn/",
+    "category": "小学",
+    "etymology": "古英语 sunne",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "sunny",
+    "chinese": "晴朗的",
+    "phonetic": "/ˈsʌni/",
+    "category": "小学",
+    "etymology": "sun+-ny(形容词后缀)",
+    "tip": "sun+-ny",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "supermarket",
+    "chinese": "超市",
+    "phonetic": "/ˌsuːpəˈmɑːkɪt/",
+    "category": "小学",
+    "etymology": "拉丁 super-(在…之上) + 古法语 market",
+    "tip": "super-超 + market市场",
+    "source": "拉丁+古法语",
+    "hasImage": true
+  },
+  {
+    "word": "sure",
+    "chinese": "确定",
+    "phonetic": "/ʃoː/",
+    "category": "小学",
+    "etymology": "古法语 seur ← 拉丁 securus = se-(无)+cura(忧虑)",
+    "tip": "sur-=se-无+cure关心→无忧→确定",
+    "source": "古法语/拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "sweep",
+    "chinese": "打扫",
+    "phonetic": "/swiːp/",
+    "category": "小学",
+    "etymology": "古英语 swapan",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "sweet",
+    "chinese": "甜的",
+    "phonetic": "/swiːt/",
+    "category": "小学",
+    "etymology": "古英语 swete",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "swim",
+    "chinese": "游泳",
+    "phonetic": "/swɪm/",
+    "category": "小学",
+    "etymology": "古英语 swimman",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "table",
+    "chinese": "桌子",
+    "phonetic": "/ˈteɪbəl/",
+    "category": "小学",
+    "etymology": "古法语 table ← 拉丁 tabula(板/木板)",
+    "tip": "不可拆分",
+    "source": "古法语/拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "tail",
+    "chinese": "尾巴",
+    "phonetic": "/teɪl/",
+    "category": "小学",
+    "etymology": "古英语 tægl",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "take",
+    "chinese": "拿",
+    "phonetic": "/teɪk/",
+    "category": "小学",
+    "etymology": "古Norse taka",
+    "tip": "日耳曼语核心动词",
+    "source": "古诺斯语",
+    "hasImage": true
+  },
+  {
+    "word": "talk",
+    "chinese": "谈话",
+    "phonetic": "/toːk/",
+    "category": "小学",
+    "etymology": "古英语 talian(讲述)",
+    "tip": "与tale同源",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "tall",
+    "chinese": "高的",
+    "phonetic": "/tɔːl/",
+    "category": "小学",
+    "etymology": "古英语 getæl(快速/高)",
+    "tip": "不可拆分",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "taxi",
+    "chinese": "出租车",
+    "phonetic": "/ˈtæk.si/",
+    "category": "小学",
+    "etymology": "taximeter cabriolet缩写 ← 法语 taximetre(计费器)",
+    "tip": "tax-费用→出租车",
+    "source": "法语/希腊语",
+    "hasImage": true
+  },
+  {
+    "word": "tea",
+    "chinese": "茶",
+    "phonetic": "/tiː/",
+    "category": "小学",
+    "etymology": "中文\"茶\"(闽南语te)，经荷兰语传入",
+    "tip": "借词",
+    "source": "中文",
+    "hasImage": true
+  },
+  {
+    "word": "teach",
+    "chinese": "教",
+    "phonetic": "/tiːt͡ʃ/",
+    "category": "小学",
+    "etymology": "古英语 tæcan(展示/教导)",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "teacher",
+    "chinese": "老师",
+    "phonetic": "/ˈtiːt͡ʃə/",
+    "category": "小学",
+    "etymology": "teach+-er",
+    "tip": "teach+-er人",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "tell",
+    "chinese": "告诉",
+    "phonetic": "/tɛl/",
+    "category": "小学",
+    "etymology": "古英语 tellan(讲述/计算)",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "thank",
+    "chinese": "谢谢",
+    "phonetic": "/[θaŋk]/",
+    "category": "小学",
+    "etymology": "古英语 þancian",
+    "tip": "与think同源：想→感激",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "thick",
+    "chinese": "厚的",
+    "phonetic": "/θɪk/",
+    "category": "小学",
+    "etymology": "古英语 þicce",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "thin",
+    "chinese": "薄的",
+    "phonetic": "/ˈθɪn/",
+    "category": "小学",
+    "etymology": "古英语 þynne",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "think",
+    "chinese": "想",
+    "phonetic": "/θɪŋk/",
+    "category": "小学",
+    "etymology": "古英语 þencan",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "tidy",
+    "chinese": "整洁的",
+    "phonetic": "/ˈtaɪdi/",
+    "category": "小学",
+    "etymology": "中古英语 tide(时间/季节)+-y",
+    "tip": "tide+-y→合时宜→整洁",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "tiger",
+    "chinese": "老虎",
+    "phonetic": "/ˈtaɪɡə/",
+    "category": "小学",
+    "etymology": "古英语 tigras ← 拉丁 tigris ← 希腊 tigris ← 波斯 tigra",
+    "tip": "不可拆分",
+    "source": "希腊语/波斯语",
+    "hasImage": true
+  },
+  {
+    "word": "time",
+    "chinese": "时间",
+    "phonetic": "/tɑem/",
+    "category": "小学",
+    "etymology": "古英语 tima",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "tired",
+    "chinese": "累的",
+    "phonetic": "/taɪəd/",
+    "category": "小学",
+    "etymology": "古英语 teorian(疲倦)→tire+-ed",
+    "tip": "tire+-ed",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "today",
+    "chinese": "今天",
+    "phonetic": "/təˈdeɪ/",
+    "category": "小学",
+    "etymology": "古英语 todæge = to+dæge(day的与格)",
+    "tip": "to+day",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "toilet",
+    "chinese": "厕所",
+    "phonetic": "/ˈtɔɪ.lət/",
+    "category": "小学",
+    "etymology": "法语 toilette ← toile(布)，原意\"小布→梳妆台\"",
+    "tip": "语义漂移：小布→梳妆→卫生间",
+    "source": "法语",
+    "hasImage": true
+  },
+  {
+    "word": "tomato",
+    "chinese": "番茄",
+    "phonetic": "/[tʰə̥ˈmɐːtʰɐʉ]/",
+    "category": "小学",
+    "etymology": "纳瓦特尔语 tomatl(圆果实)，经西班牙语传入",
+    "tip": "借词",
+    "source": "纳瓦特尔语",
+    "hasImage": true
+  },
+  {
+    "word": "tomorrow",
+    "chinese": "明天",
+    "phonetic": "/təˈmɔɹoʊ/",
+    "category": "小学",
+    "etymology": "古英语 to morgenne = to+morgen(早晨)",
+    "tip": "to+morrow(早晨)",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "tooth",
+    "chinese": "牙齿",
+    "phonetic": "/tuːθ/",
+    "category": "小学",
+    "etymology": "古英语 toð",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "top",
+    "chinese": "顶部",
+    "phonetic": "/tɒp/",
+    "category": "小学",
+    "etymology": "古英语 topp",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "toy",
+    "chinese": "玩具",
+    "phonetic": "/tɔɪ/",
+    "category": "小学",
+    "etymology": "中古英语 toye，来源不确定",
+    "tip": "不可拆分",
+    "source": "中古英语",
+    "hasImage": true
+  },
+  {
+    "word": "train",
+    "chinese": "火车",
+    "phonetic": "/tɹeɪn/",
+    "category": "小学",
+    "etymology": "古法语 train ← trahiner(拖) ← 拉丁 trahere(拉)",
+    "tip": "train-拖→列车",
+    "source": "古法语/拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "travel",
+    "chinese": "旅行",
+    "phonetic": "/ˈtɹævəl/",
+    "category": "小学",
+    "etymology": "古法语 travail(辛劳/劳动) → 艰难的旅程",
+    "tip": "travail=辛劳→旅行",
+    "source": "古法语",
+    "hasImage": true
+  },
+  {
+    "word": "tree",
+    "chinese": "树",
+    "phonetic": "/tɹiː/",
+    "category": "小学",
+    "etymology": "古英语 treo",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "trousers",
+    "chinese": "裤子",
+    "phonetic": "/ˈtɹaʊzəz/",
+    "category": "小学",
+    "etymology": "爱尔兰盖尔语 triubhas(紧身裤)",
+    "tip": "借词",
+    "source": "爱尔兰盖尔语",
+    "hasImage": true
+  },
+  {
+    "word": "try",
+    "chinese": "尝试",
+    "phonetic": "/tɹaɪ/",
+    "category": "小学",
+    "etymology": "古法语 trier(挑选/筛选)",
+    "tip": "不可拆分",
+    "source": "古法语",
+    "hasImage": true
+  },
+  {
+    "word": "turn",
+    "chinese": "转向",
+    "phonetic": "/tɜːn/",
+    "category": "小学",
+    "etymology": "古法语 tourner，可能来自日耳曼语",
+    "tip": "不可拆分",
+    "source": "古法语",
+    "hasImage": true
+  },
+  {
+    "word": "tv",
+    "chinese": "电视",
+    "phonetic": "/ˌtiːˈviː/",
+    "category": "小学",
+    "etymology": "television的缩写(tele-远+vision视觉)",
+    "tip": "tele远+vision视",
+    "source": "希腊+拉丁",
+    "hasImage": true
+  },
+  {
+    "word": "ugly",
+    "chinese": "丑陋的",
+    "phonetic": "/ˈʌɡli/",
+    "category": "小学",
+    "etymology": "古Norse uggligr(可怕的)",
+    "tip": "不可拆分",
+    "source": "古诺斯语",
+    "hasImage": true
+  },
+  {
+    "word": "umbrella",
+    "chinese": "雨伞",
+    "phonetic": "/ʌmˈbɹɛlə/",
+    "category": "小学",
+    "etymology": "意大利 ombrella ← 拉丁 umbra(阴影)+-ella(小)",
+    "tip": "umbr-阴影 + -ella小→小阴影→伞",
+    "source": "拉丁语/意大利语",
+    "hasImage": true
+  },
+  {
+    "word": "uncle",
+    "chinese": "叔叔",
+    "phonetic": "/ˈʌŋ.kəl/",
+    "category": "小学",
+    "etymology": "古法语 oncle ← 拉丁 avunculus(母亲的兄弟)",
+    "tip": "avunc-=小祖父→叔叔/舅舅",
+    "source": "古法语/拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "use",
+    "chinese": "使用",
+    "phonetic": "/juːz/",
+    "category": "小学",
+    "etymology": "古法语 user ← 通俗拉丁 usare ← 拉丁 uti(使用)",
+    "tip": "不可拆分",
+    "source": "古法语/拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "vegetable",
+    "chinese": "蔬菜",
+    "phonetic": "/ˈvɛd͡ʒtəbəl/",
+    "category": "小学",
+    "etymology": "拉丁 vegetabilis ← vegetare(使有活力)",
+    "tip": "veget-活力 + -able",
+    "source": "拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "visit",
+    "chinese": "参观",
+    "phonetic": "/ˈvɪzɪt/",
+    "category": "小学",
+    "etymology": "拉丁 visitare ← visere(看)",
+    "tip": "vis-看 + -it",
+    "source": "拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "volleyball",
+    "chinese": "排球",
+    "phonetic": "/ˈvɒlibɔ(ː)l/",
+    "category": "小学",
+    "etymology": "法语 volee(飞) + 古Norse bollr(球)",
+    "tip": "volley飞 + ball球",
+    "source": "法语+古诺斯语",
+    "hasImage": true
+  },
+  {
+    "word": "wait",
+    "chinese": "等待",
+    "phonetic": "/weɪt/",
+    "category": "小学",
+    "etymology": "古北部法语 waitier(看守/等待)，来自日耳曼语",
+    "tip": "不可拆分",
+    "source": "古法语/日耳曼语",
+    "hasImage": true
+  },
+  {
+    "word": "wake",
+    "chinese": "醒来",
+    "phonetic": "/ˈweɪk/",
+    "category": "小学",
+    "etymology": "古英语 wacian(醒)",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "walk",
+    "chinese": "走路",
+    "phonetic": "/wɔːk/",
+    "category": "小学",
+    "etymology": "古英语 wealcan(滚动→行走)",
+    "tip": "不可拆分",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "wall",
+    "chinese": "墙",
+    "phonetic": "/wɔːl/",
+    "category": "小学",
+    "etymology": "古英语 wall ← 拉丁 vallum(城墙/壁垒)",
+    "tip": "不可拆分",
+    "source": "拉丁语",
+    "hasImage": true
+  },
+  {
+    "word": "want",
+    "chinese": "想要",
+    "phonetic": "/wɔnt/",
+    "category": "小学",
+    "etymology": "古Norse vanta(缺少)",
+    "tip": "不可拆分",
+    "source": "古诺斯语",
+    "hasImage": true
+  },
+  {
+    "word": "warm",
+    "chinese": "温暖的",
+    "phonetic": "/wɔːm/",
+    "category": "小学",
+    "etymology": "古英语 wearm",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "wash",
+    "chinese": "洗",
+    "phonetic": "/wɑʃ/",
+    "category": "小学",
+    "etymology": "古英语 wæscan",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "watch",
+    "chinese": "手表",
+    "phonetic": "/wɒt͡ʃ/",
+    "category": "小学",
+    "etymology": "古英语 wæccan(保持清醒→看守)",
+    "tip": "与wake同源",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "water",
+    "chinese": "水",
+    "phonetic": "/ˈwoːtə/",
+    "category": "小学",
+    "etymology": "古英语 wæter",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "way",
+    "chinese": "路",
+    "phonetic": "/weɪ/",
+    "category": "小学",
+    "etymology": "古英语 weg(路)",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "wear",
+    "chinese": "穿",
+    "phonetic": "/wɛə/",
+    "category": "小学",
+    "etymology": "古英语 werian(穿戴)",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "weather",
+    "chinese": "天气",
+    "phonetic": "/ˈwɛðə/",
+    "category": "小学",
+    "etymology": "古英语 weder",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "week",
+    "chinese": "周",
+    "phonetic": "/wiːk/",
+    "category": "小学",
+    "etymology": "古英语 wice",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "welcome",
+    "chinese": "欢迎",
+    "phonetic": "/ˈwɛlkəm/",
+    "category": "小学",
+    "etymology": "古英语 wilcuma = wil(意愿)+cuma(来者)",
+    "tip": "wel-好+come来→\"来得好\"",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "white",
+    "chinese": "白色",
+    "phonetic": "/waɪt/",
+    "category": "小学",
+    "etymology": "古英语 hwit",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "win",
+    "chinese": "赢",
+    "phonetic": "/wɪn/",
+    "category": "小学",
+    "etymology": "古英语 winnan(争取/赢得)",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "wind",
+    "chinese": "风",
+    "phonetic": "/ˈwaɪnd/",
+    "category": "小学",
+    "etymology": "古英语 wind",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "window",
+    "chinese": "窗户",
+    "phonetic": "/ˈwɪndəʊ/",
+    "category": "小学",
+    "etymology": "古Norse vindauga = vindr(风)+auga(眼)",
+    "tip": "wind风+ow眼→\"风眼→窗户\"",
+    "source": "古诺斯语",
+    "hasImage": true
+  },
+  {
+    "word": "windy",
+    "chinese": "有风的",
+    "phonetic": "/ˈwɪndi/",
+    "category": "小学",
+    "etymology": "wind+-y",
+    "tip": "wind+-y",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "winter",
+    "chinese": "冬天",
+    "phonetic": "/ˈwɪntɚ/",
+    "category": "小学",
+    "etymology": "古英语 winter",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "wish",
+    "chinese": "希望",
+    "phonetic": "/wɪʃ/",
+    "category": "小学",
+    "etymology": "古英语 wyscan",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "woman",
+    "chinese": "女人",
+    "phonetic": "/ˈwʊmɘn/",
+    "category": "小学",
+    "etymology": "古英语 wifman = wif(女性)+man(人)",
+    "tip": "wo-(wife女性)+man人",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "wonderful",
+    "chinese": "精彩的",
+    "phonetic": "/ˈwʌn.də.fl/",
+    "category": "小学",
+    "etymology": "古英语 wundor(奇迹)+-ful",
+    "tip": "wonder奇迹+-ful充满",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "word",
+    "chinese": "单词",
+    "phonetic": "/wɜːd/",
+    "category": "小学",
+    "etymology": "古英语 word",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "work",
+    "chinese": "工作",
+    "phonetic": "/wɜːk/",
+    "category": "小学",
+    "etymology": "古英语 weorc",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "worker",
+    "chinese": "工人",
+    "phonetic": "/ˈwɜː.kə/",
+    "category": "小学",
+    "etymology": "work+-er",
+    "tip": "work+-er人",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "world",
+    "chinese": "世界",
+    "phonetic": "/wɝld/",
+    "category": "小学",
+    "etymology": "古英语 weorold = wer(人)+eld(年龄/时代)",
+    "tip": "wer-人+old时代→\"人生时代→世界\"",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "worry",
+    "chinese": "担心",
+    "phonetic": "/ˈwɒɹi/",
+    "category": "小学",
+    "etymology": "古英语 wyrgan(勒死→使焦虑)",
+    "tip": "不可拆分",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "write",
+    "chinese": "写",
+    "phonetic": "/ɹaɪt/",
+    "category": "小学",
+    "etymology": "古英语 writan(刻/写)",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "wrong",
+    "chinese": "错误的",
+    "phonetic": "/ɹɒŋ/",
+    "category": "小学",
+    "etymology": "古英语 wrang(弯曲的/错误的)",
+    "tip": "不可拆分",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "year",
+    "chinese": "年",
+    "phonetic": "/jɪə/",
+    "category": "小学",
+    "etymology": "古英语 gear",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "yellow",
+    "chinese": "黄色",
+    "phonetic": "/jɛlə/",
+    "category": "小学",
+    "etymology": "古英语 geolu",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "yesterday",
+    "chinese": "昨天",
+    "phonetic": "/ˈjɛstədeɪ/",
+    "category": "小学",
+    "etymology": "古英语 geostran dæg = geostran(昨天)+dæg(日)",
+    "tip": "yester-昨+day日",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "young",
+    "chinese": "年轻的",
+    "phonetic": "/jʌŋ/",
+    "category": "小学",
+    "etymology": "古英语 geong",
+    "tip": "日耳曼语通用词",
+    "source": "古英语",
+    "hasImage": true
+  },
+  {
+    "word": "zoo",
+    "chinese": "动物园",
+    "phonetic": "/zuː/",
+    "category": "小学",
+    "etymology": "希腊 zoion(动物)，zoological garden的缩写",
+    "tip": "zoo-动物",
+    "source": "希腊语",
+    "hasImage": true
+  }
+]
