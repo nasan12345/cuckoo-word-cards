@@ -22,23 +22,6 @@
   background-clip: text;
 }
 
-/* ========== 3D 翻卡 ========== */
-.card-wrapper {
-  perspective: 1200px;
-}
-
-.card-3d {
-  position: relative;
-  width: 100%;
-  aspect-ratio: 1 / 1.48;
-  transform-style: preserve-3d;
-  cursor: pointer;
-}
-
-.card-3d.flipped {
-  transform: rotateY(180deg);
-}
-
 /* 正面毛毡配图容器 */
 #cardImage {
   position: relative;
@@ -49,20 +32,6 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
-
-.card-face {
-  position: absolute;
-  inset: 0;
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
-  display: flex;
-  flex-direction: column;
-}
-
-.card-back {
-  transform: rotateY(180deg);
-  overflow-y: auto;
 }
 
 /* 进度条覆盖 daisyUI */

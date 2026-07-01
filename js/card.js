@@ -51,7 +51,7 @@
 
   // ---- DOM ----
   const els = {
-    card3d: document.getElementById('card3d'),
+    cardFront: document.getElementById('cardFront'),
     cardImage: document.getElementById('cardImage'),
     cardWord: document.getElementById('cardWord'),
     cardChinese: document.getElementById('cardChinese'),
@@ -59,21 +59,13 @@
     cardSource: document.getElementById('cardSource'),
     cardEtymology: document.getElementById('cardEtymology'),
     cardTip: document.getElementById('cardTip'),
-    cardAssociationImage: document.getElementById('cardAssociationImage'),
-    cardWordBack: document.getElementById('cardWordBack'),
-    cardChineseBack: document.getElementById('cardChineseBack'),
-    cardPhoneticBack: document.getElementById('cardPhoneticBack'),
-    cardSourceBack: document.getElementById('cardSourceBack'),
     cardSourceBadge: document.getElementById('cardSourceBadge'),
-    cardRelated: document.getElementById('cardRelated'),
     cardCounter: document.getElementById('cardCounter'),
     progressBar: document.getElementById('progressBar'),
-    flipHint: document.getElementById('flipHint'),
     ratingButtons: document.getElementById('ratingButtons'),
     nextButton: document.getElementById('nextButton'),
     completeScreen: document.getElementById('completeScreen'),
     completeStats: document.getElementById('completeStats'),
-    actionArea: document.getElementById('actionArea'),
     resumeHint: document.getElementById('resumeHint')
   };
 
@@ -138,62 +130,21 @@
     els.cardPhonetic.textContent = w.phonetic || '';
     els.cardSource.textContent = w.source;
     
-    // 背面 - 词条信息（复刻正面）
-    els.cardWordBack.textContent = w.word;
-    els.cardChineseBack.textContent = w.chinese || '';
-    els.cardPhoneticBack.textContent = w.phonetic || '';
-    els.cardSourceBack.textContent = w.source;
-    
-    // 背面 - 拆分 & 联想
+    // 词源详情
     els.cardEtymology.textContent = w.etymology;
     els.cardTip.textContent = w.tip;
     els.cardSourceBadge.textContent = w.source;
     
-    // 联想配图 — 已移除
-    els.cardAssociationImage.style.display = 'none';
-    els.cardAssociationImage.innerHTML = '';
-    
-    // 重置翻转
-    els.card3d.classList.remove('flipped');
-    gsap.set(els.card3d, { rotateY: 0 });
-    els.flipHint.classList.remove('hidden');
-    els.ratingButtons.classList.add('hidden');
+    // 显示自评按钮
+    els.ratingButtons.classList.remove('hidden');
     els.nextButton.classList.add('hidden');
     
     updateProgress();
     
-    gsap.fromTo(els.card3d, 
+    gsap.fromTo(els.cardFront, 
       { opacity: 0, y: 20, scale: 0.95 },
       { opacity: 1, y: 0, scale: 1, duration: 0.45, ease: 'back.out(1.2)' }
     );
-  }
-
-  // ---- 翻转 ----
-  let isFlipping = false;
-  
-  function flipCard() {
-    if (isFlipping) return;
-    isFlipping = true;
-    
-    const isFlipped = els.card3d.classList.contains('flipped');
-    
-    if (isFlipped) {
-      els.card3d.classList.remove('flipped');
-      gsap.to(els.card3d, { 
-        rotateY: 0, duration: 0.6, ease: 'power2.inOut',
-        onComplete: () => { isFlipping = false; }
-      });
-      els.flipHint.classList.remove('hidden');
-      els.ratingButtons.classList.add('hidden');
-    } else {
-      els.card3d.classList.add('flipped');
-      gsap.to(els.card3d, { 
-        rotateY: 180, duration: 0.6, ease: 'power2.inOut',
-        onComplete: () => { isFlipping = false; }
-      });
-      els.flipHint.classList.add('hidden');
-      els.ratingButtons.classList.remove('hidden');
-    }
   }
 
   // ---- 自评 ----
@@ -224,8 +175,8 @@
     sessionScore = 0;
 
     // 显示卡片区域
-    els.card3d.style.display = '';
-    els.actionArea.style.display = '';
+    els.cardFront.style.display = '';
+    els.ratingButtons.style.display = '';
     els.completeScreen.classList.add('hidden');
     if (els.resumeHint) els.resumeHint.classList.add('hidden');
 
@@ -235,8 +186,8 @@
 
   // ---- 完成 ----
   async function showComplete() {
-    els.card3d.style.display = 'none';
-    els.actionArea.style.display = 'none';
+    els.cardFront.style.display = 'none';
+    els.ratingButtons.style.display = 'none';
     els.completeScreen.classList.remove('hidden');
     
     // 结算积分
@@ -264,13 +215,8 @@
 
   // ---- 事件绑定 ----
   function bindEvents() {
-    els.card3d.addEventListener('click', flipCard);
-    
     document.addEventListener('keydown', function(e) {
-      if (e.key === ' ' || e.key === 'Spacebar') {
-        e.preventDefault();
-        flipCard();
-      } else if (e.key === 'ArrowRight' && !els.nextButton.classList.contains('hidden')) {
+      if (e.key === 'ArrowRight' && !els.nextButton.classList.contains('hidden')) {
         nextCard();
       }
     });
